@@ -186,3 +186,7 @@ div.playlist {
   display: inline-block;
   border-left: solid 1px black;
 }
+.post_image{
+  width: 50%;
+  display: inline-block;
+}

@@ -20,6 +20,10 @@ class App extends Component {
           <Route path="/writing" component={Writing} exact />
           <Route path="/experiments" component={Experiments} exact />
           <Route path="/post" component={PostPage} exact />
+          <Route path="/writing/gallery" component={WritingGallery} exact />
+          <Route path="/writing/:id" component={PostPage} exact />
+
+
           {/* <Route path="/" component={HomePage} exact />
           <Route path="/" component={HomePage} exact />
           <Route path="/" component={HomePage} exact /> */}

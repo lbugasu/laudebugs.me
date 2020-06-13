@@ -14,3 +14,5 @@ export default function usePosts() {
       setLoading(false)
     })
   }, [])
+  return [posts, isLoading]
+}

@@ -7,15 +7,16 @@ import * as contentful from 'contentful'
 
 var client = contentful.createClient({
   space: 'rnmht6wsj5nl',
-  accessToken: '_AsjIH6r4ph08uPsSxi_61X8pBSjVP_PSOKOBXpObCM' })
+  accessToken: '_AsjIH6r4ph08uPsSxi_61X8pBSjVP_PSOKOBXpObCM'
+})
 
-  client.getEntries().then(entries => {
-    entries.items.forEach(entry => {
-      if(entry.fields) {
-        console.log(entry.fields)
-      }
-    })
+client.getEntries().then(entries => {
+  entries.items.forEach(entry => {
+    if (entry.fields) {
+      // console.log(entry.fields)
+    }
   })
+})
 
 ReactDOM.render(
   <React.StrictMode>

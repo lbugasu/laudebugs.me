@@ -1,6 +1,6 @@
 const client = require("contentful").createClient({
   space: "rnmht6wsj5nl",
-  accessToken: "HM9Ully-63TrAHVbrqokqNSantt5YHUnAKncqtIYo4U",
+  accessToken: "_AsjIH6r4ph08uPsSxi_61X8pBSjVP_PSOKOBXpObCM",
 });
 
 const getBlogPosts = () =>
@@ -10,7 +10,7 @@ const getSinglePost = (slug) =>
   client
     .getEntries({
       "fields.slug": slug,
-      content_type: "blogPost",
+      content_type: "post",
     })
     .then((response) => response.items);
 
