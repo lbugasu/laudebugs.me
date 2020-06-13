@@ -3,6 +3,19 @@ import ReactDOM from "react-dom";
 import "./css/index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import * as contentful from 'contentful'
+
+var client = contentful.createClient({
+  space: 'rnmht6wsj5nl',
+  accessToken: '_AsjIH6r4ph08uPsSxi_61X8pBSjVP_PSOKOBXpObCM' })
+
+  client.getEntries().then(entries => {
+    entries.items.forEach(entry => {
+      if(entry.fields) {
+        console.log(entry.fields)
+      }
+    })
+  })
 
 ReactDOM.render(
   <React.StrictMode>

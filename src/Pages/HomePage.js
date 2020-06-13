@@ -1,6 +1,6 @@
 import React from "react";
-import NavBarHome from "../Components/NavBarHome";
-import FrontImage from "../Components/FrontImage";
+import NavBarHome from "../components/NavBarHome";
+import FrontImage from "../components/FrontImage";
 const Homepage = () => (
   <>
     <NavBarHome />

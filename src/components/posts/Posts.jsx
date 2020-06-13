@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import { usePosts } from '../custom-hooks/'
+import { usePosts } from '../../custom-hooks/'
 import { readableDate } from '../helpers'
 import './Posts.less'
-export default function WritingGallery() {
+export default function Posts() {
     const [posts, isLoading] = usePosts()
   
     const renderPosts = () => {

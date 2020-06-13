@@ -1,7 +1,7 @@
 import React from "react";
-import WritingHeader from "../Components/WritingHeader";
-import NavBar from "../Components/NavBar";
-import WritingFooter from "../Components/WritingFooter";
+import WritingHeader from "../components/WritingHeader";
+import NavBar from "../components/NavBar";
+import WritingFooter from "../components/WritingFooter";
 const Wriring = () => (
   <>
     <WritingHeader />

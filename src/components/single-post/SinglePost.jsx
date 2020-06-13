@@ -2,10 +2,10 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import MD from 'react-markdown'
 
-import { useSinglePost } from '../custom-hooks'
+import { useSinglePost } from '../../custom-hooks'
 import { readableDate } from '../helpers'
-import '../components/posts/SinglePost.less'
-export default function PostPage() {
+import './SinglePost.less'
+export default function SinglePost() {
     const { id } = useParams()
     const [post, isLoading] = useSinglePost(id)
   
