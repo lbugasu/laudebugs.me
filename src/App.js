@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import HomePage from "./Pages/HomePage";
+import Experiments from "./Pages/Experiments";
+import PostPage from "./Pages/PostPage";
+import WorkNotes from "./Pages/WorkNotes";
+import Writing from "./Pages/Writing";
+import WritingGallery from "./Pages/WritingGallery";
+import WriringSectionPage from "./Pages/WritingSubjectPage";
+import WriringSubjectPage from "./Pages/WritingSubjectPage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Route path="/" component={HomePage} exact />
+          <Route path="/writing" component={Writing} exact />
+          <Route path="/experiments" component={Experiments} exact />
+          <Route path="/post" component={PostPage} exact />
+          {/* <Route path="/" component={HomePage} exact />
+          <Route path="/" component={HomePage} exact />
+          <Route path="/" component={HomePage} exact /> */}
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

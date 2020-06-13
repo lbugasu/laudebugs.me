@@ -36,3 +36,153 @@
     transform: rotate(360deg);
   }
 }
+
+.homeNav {
+  width: 40%;
+  display: inline-block;
+  font-size: 32px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.homeNav h1 {
+  text-align: left;
+  font-weight: 200;
+}
+.laurence {
+  letter-spacing: 2px;
+}
+.bugasu {
+  letter-spacing: 14px;
+}
+#right {
+  text-align: right;
+}
+.homeNav a {
+  text-decoration: underline;
+  color: black;
+  font-size: 28px;
+}
+.homeNav a:hover {
+  text-decoration: line-through;
+}
+.homeNav a:visited {
+  color: black;
+}
+.frontImage {
+  width: 100%;
+  text-align: left;
+  vertical-align: top;
+}
+img {
+  width: 100%;
+}
+div.outerBox {
+  width: 70%;
+  padding: 5%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+div.years {
+  width: 15%;
+  padding-right: 5%;
+  display: inline-block;
+  text-align: right;
+}
+
+h2 {
+  text-align: right;
+  padding-right: 25%;
+  line-height: 500%;
+}
+.lb {
+  font-size: 48px;
+  display: inline-block;
+  padding: 2.5%;
+}
+h1.lb {
+  border: solid 2px black;
+  font-size: 56px;
+}
+.pageTitle {
+  display: inline-block;
+  font-size: 32px;
+  width: 60%;
+  text-align: left;
+}
+.menu {
+  width: 20%;
+  display: inline-block;
+  text-align: right;
+}
+img.menuButton {
+  width: 30%;
+  height: 30%;
+  vertical-align: bottom;
+}
+div.navBar {
+  width: 100%;
+  display: inline-block;
+  border-top: 0;
+  margin-top: 0;
+}
+div.topmost {
+  height: 22.5vh;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+div.menuitem {
+  width: 25%;
+  display: inline-block;
+  font-size: 40px;
+}
+.menuitem a {
+  text-decoration: none;
+  color: black;
+}
+hr.menuLines {
+  width: 90%;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+.footerSection {
+  width: 25%;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
+  text-align: left;
+}
+.footerSection a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+}
+a.lb {
+  text-decoration: none;
+  color: black;
+}
+/* h1.lb:hover {
+  background-color: black;
+} */
+hr.footerLines {
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+.footer {
+  margin: 5%;
+}
+div.content {
+  width: 75%;
+  display: inline-block;
+}
+div.playlist {
+  width: 25%;
+  display: inline-block;
+  border-left: solid 1px black;
+}
