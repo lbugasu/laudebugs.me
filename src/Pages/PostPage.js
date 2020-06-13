@@ -1,21 +1,20 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
-import MD from 'react-markdown'
 
 import { useSinglePost } from '../custom-hooks'
 import { readableDate } from '../components/helpers'
 import '../components/SinglePost.less'
 import WritingHeader from '../components/WritingHeader'
 import WritingFooter from '../components/WritingFooter'
+import ReactMarkdown from 'react-markdown'
+import MD from 'react-markdown'
 
 export default function PostPage({ match }) {
-  const name = match.params.name
   const { id } = useParams()
   const [post, isLoading] = useSinglePost(id)
   const renderPost = () => {
     if (isLoading) return <p>Loading...</p>
-    console.log(post)
-
+    
     return (
       <>
         <WritingHeader />
@@ -32,9 +31,10 @@ export default function PostPage({ match }) {
           </div>
         </div>
         <div className="post__body">
-          post.body
-          <MD source={post.body} />
+          <ReactMarkdown source={post.body.content} />
+          <MD source={"<h1>stufff<h1/>"}/>
         </div>
+
         <WritingFooter />
       </>
     )
