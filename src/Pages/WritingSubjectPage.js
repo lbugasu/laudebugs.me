@@ -1,7 +1,7 @@
 import React from "react";
 const WritingSubjectPage = () => (
   <>
-    <h1>Different Themes go here</h1>
+    <h1>Subjects/Themes page</h1>
   </>
 );
 

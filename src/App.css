@@ -190,3 +190,37 @@ div.playlist {
   width: 50%;
   display: inline-block;
 }
+.postContent{
+  width: 75%;
+  display: inline-block;
+  font-size: 20px;
+}
+.postPreview{
+  font-size: 16;
+}
+a.mainSection{
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+}
+a.mainSection:hover{
+  color: grey;
+}
+em.subSection{
+  font-style: normal;
+  color: grey;
+}
+div.postFrame{
+  display: inline-block;
+  width: 20%;
+  padding: 2.5%;
+  vertical-align: top;
+}
+a.preview{
+  text-decoration: none;
+  color: black;
+}
+a.preview:hover{
+  text-decoration: gray;
+  color: grey;
+}

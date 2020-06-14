@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MenuButton from "../css/images/menubutton.png";
-const WritingHeader = () => (
+const WritingHeader = ({section}) => (
   <>
     <div className="topmost">
       <div className="lb">
@@ -10,7 +10,7 @@ const WritingHeader = () => (
         </Link>
       </div>
       <div className="pageTitle">
-        <h1>| writing</h1>
+        <h1 ><Link className="mainSection">| writing</Link><em className="subSection">{section}</em></h1>
       </div>
       <div className="menu">
         <img className="menuButton" src={MenuButton} alt="menu Button" />

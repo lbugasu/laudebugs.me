@@ -1,4 +1,5 @@
 import React from 'react'
+import {documentToHtmlString} from '@contentful/rich-text-html-renderer'
 import { Link, useParams } from 'react-router-dom'
 
 import { useSinglePost } from '../custom-hooks'
@@ -6,18 +7,13 @@ import { readableDate } from '../components/helpers'
 import '../components/SinglePost.less'
 import WritingHeader from '../components/WritingHeader'
 import WritingFooter from '../components/WritingFooter'
-import * as Markdown from 'react-markdown'
 
-export default function PostPage({ match }) {
+export default function PostPage() {
   const { id } = useParams()
   const [post, isLoading] = useSinglePost(id)
-  const markdown = `
-This block of Markdown contains <a href="https://en.wikipedia.org/wiki/HTML">HTML</a>, and will require the <code>html-parser</code> AST plugin to be loaded, in addition to setting the <code class="prop">escapeHtml</code> property to false.
-`
+
   const renderPost = () => {
     if (isLoading) return <p>Loading...</p>
-
-    
     return (
       <>
         <WritingHeader />
@@ -32,8 +28,7 @@ This block of Markdown contains <a href="https://en.wikipedia.org/wiki/HTML">HTM
             />
           </div>
         </div>
-        <div className="post__body">
-        <Markdown source={post.body}escapeHtml={false} />
+        <div className="postContent" dangerouslySetInnerHTML={{__html:documentToHtmlString(post.body)}}>
         </div>
         <WritingFooter />
       </>
