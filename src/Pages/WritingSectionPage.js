@@ -1,8 +1,20 @@
 import React from "react";
-const WritingSectionPage = () => (
-  <>
-    <h1>This page displays a section of your writing</h1>
-  </>
-);
+import { Link, useParams } from "react-router-dom";
 
-export default WritingSectionPage;
+import WritingHeader from "../components/WritingHeader";
+import WritingFooter from "../components/WritingFooter";
+import NavBar from "../components/NavBar";
+export default function WritingSectionPage() {
+  const { section } = useParams();
+  const renderPage = () => {
+    return (
+      <>
+        <WritingHeader section={"/" + section} />
+        <NavBar />
+        <h1>Section!</h1>
+        <WritingFooter />
+      </>
+    );
+  };
+  return <>{renderPage()}</>;
+}

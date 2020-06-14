@@ -5,7 +5,7 @@ import PostPage from "./Pages/PostPage";
 import WorkNotes from "./Pages/WorkNotes";
 import Writing from "./Pages/Writing";
 import WritingGallery from "./Pages/WritingGallery";
-import WritingSectionPage from "./Pages/WritingSubjectPage";
+import WritingSectionPage from "./Pages/WritingSectionPage";
 import WritingSubjectPage from "./Pages/WritingSubjectPage";
 
 import "./App.css";
@@ -17,19 +17,26 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Route path="/" component={HomePage} exact/>
-          <Route path="/writing" component={Writing} exact/>
-          <Route path="/writing/subjects/:subject" component={WritingSubjectPage} exact/>
-          <Route path="/writing/section/:section" component={WritingSectionPage} exact/>
+          <Route path="/" component={HomePage} exact />
+          <Route path="/writing" component={Writing} exact />
+          <Route
+            path="/writing-subjects/:subject"
+            component={WritingSubjectPage}
+            exact
+          />
+          <Route
+            path="/writing-section/:section"
+            component={WritingSectionPage}
+            exact
+          />
 
           <Route path="/experiments" component={Experiments} exact />
-          <Route path="/post" component={PostPage} exact/>
-          <Route path="/writing-gallery" component={WritingGallery} exact/>
-          <Route path="/writing/:id" component={PostPage} exact/>
-          <Route path="/worknotes" component={WorkNotes} exact/>
+          <Route path="/post" component={PostPage} exact />
+          <Route path="/writing-gallery" component={WritingGallery} exact />
+          <Route path="/writing/:id" component={PostPage} exact />
+          <Route path="/worknotes" component={WorkNotes} exact />
 
           {/* <Route component={NotFoundPage} exact /> */}
-
         </div>
       </Router>
     );

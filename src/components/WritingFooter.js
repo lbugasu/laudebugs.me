@@ -8,19 +8,19 @@ const WritingFooter = () => (
       <hr className="footerLines" />
       <div className="footerSection">
         <h3>Subjects</h3>
-        <Link to="/writing/subjects/faith">faith</Link>
-        <Link to="/writing/subjects/blackness">blackness</Link>
-        <Link to="/writing/subjects/pan-africanism">pan-africanism</Link>
-        <Link to="/writing/subjects/love">love</Link>
-        <Link to="/writing/subjects/death">death</Link>
-        <Link to="/writing/subjects/travel">travel</Link>
+        <Link to="/writing-subjects/faith">faith</Link>
+        <Link to="/writing-subjects/blackness">blackness</Link>
+        <Link to="/writing-subjects/pan-africanism">pan-africanism</Link>
+        <Link to="/writing-subjects/love">love</Link>
+        <Link to="/writing-subjects/death">death</Link>
+        <Link to="/writing-subjects/travel">travel</Link>
       </div>
       <div className="footerSection">
         <h3>Sections</h3>
-        <Link to="/writing/section/notes">notes</Link>
-        <Link to="/writing/section/letters">letters</Link>
-        <Link to="/writing/section/poetry">poetry</Link>
-        <Link to="/writing/section/random">random</Link>
+        <Link to="/writing-section/notes">notes</Link>
+        <Link to="/writing-section/letters">letters</Link>
+        <Link to="/writing-section/poetry">poetry</Link>
+        <Link to="/writing-section/random">random</Link>
       </div>
       <div className="footerSection">
         <h3>More</h3>

@@ -147,6 +147,12 @@ hr.menuLines {
   background-color: black;
   border: none;
 }
+hr.feat {
+  width: 95%;
+  height: 1px;
+  background-color: black;
+  border: none;
+}
 .footerSection {
   width: 25%;
   display: inline-block;
@@ -180,7 +186,7 @@ hr.footerLines {
 div.content {
   width: 70%;
   display: inline-block;
-vertical-align: top;
+  vertical-align: top;
 }
 div.playlist {
   width: 25%;
@@ -188,75 +194,96 @@ div.playlist {
   border-left: solid 1px black;
   vertical-align: top;
 }
-.playlist iframe{
+h2.playlist {
+  padding-left: 15%;
+  margin: 0;
+  padding-top: 0;
+  text-align: left;
+}
+.playlist iframe {
   padding: 2.5%;
 }
-.post_image{
+.post_image {
   width: 50%;
   display: inline-block;
 }
-.postContent{
+.postContent {
   width: 75%;
   display: inline-block;
   font-size: 20px;
 }
-.postPreview{
+.postPreview {
   font-size: 16;
 }
-a.mainSection{
+a.mainSection {
   font-style: normal;
   color: black;
   text-decoration: none;
 }
-a.mainSection:hover{
+a.mainSection:hover {
   color: grey;
 }
-em.subSection{
+em.subSection {
   font-style: normal;
   color: grey;
 }
-div.postFrame{
+div.postFrame {
   display: inline-block;
   width: 20%;
   padding: 2.5%;
   vertical-align: top;
 }
-a.preview{
+a.preview {
   text-decoration: none;
   color: black;
 }
-a.preview:hover{
+div.featureContent {
+  padding: 2%;
+}
+
+a.preview:hover {
   text-decoration: gray;
   color: grey;
 }
-div.feature{
-  width: 70%;
+div.feature {
   padding: 2.5%;
   display: inline-block;
   vertical-align: top;
 }
-div.feature{
-  padding: 0%;
-}
-div.featureTitle{
-border: 1px solid red;
-}
-div.featuredimage{
-  width: 30%;
-  display: inline-block;
-vertical-align: top;
-border: 1px solid orange;
 
-}
-.featuredImage div{
-  width: 100%;
-}
-div.posts{
+div.featureTitle {
   display: inline-block;
-border: 1px solid green;
-
+  width: 70%;
 }
-h1.featureTitle{
+div.featuredimage {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.posts {
+  display: inline-block;
+}
+h1.featureTitle {
   padding: 0;
   border: 0;
+}
+h1.feature {
+  margin: 0;
+}
+div.miniFeatureOne {
+  width: 30%;
+  display: inline-block;
+  padding: 2.5%;
+  border-right: solid black 1px;
+}
+div.miniFeatureTwo {
+  width: 30%;
+  display: inline-block;
+  padding: 2.5%;
+}
+h3.featureTitle {
+  padding-left: 15%;
+  text-align: left;
+  color: #258309;
 }

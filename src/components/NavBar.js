@@ -5,16 +5,16 @@ const NavBar = () => (
   <>
     <div className="navBar">
       <div className="menuitem">
-        <Link to="/writing/notes">notes</Link>
+        <Link to="/writing-section/notes">notes</Link>
       </div>
       <div className="menuitem">
-        <Link to="/writing/letters">letters</Link>
+        <Link to="/writing-section/letters">letters</Link>
       </div>
       <div className="menuitem">
-        <Link to="/writing/poetry">poetry</Link>
+        <Link to="/writing-section/poetry">poetry</Link>
       </div>
       <div className="menuitem">
-        <Link to="/writing/random">random</Link>
+        <Link to="/writing-section/random">random</Link>
       </div>
       <hr className="menuLines" />
     </div>
