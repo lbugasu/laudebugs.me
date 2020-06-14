@@ -178,13 +178,18 @@ hr.footerLines {
   margin: 5%;
 }
 div.content {
-  width: 75%;
+  width: 70%;
   display: inline-block;
+vertical-align: top;
 }
 div.playlist {
   width: 25%;
   display: inline-block;
   border-left: solid 1px black;
+  vertical-align: top;
+}
+.playlist iframe{
+  padding: 2.5%;
 }
 .post_image{
   width: 50%;
@@ -223,4 +228,35 @@ a.preview{
 a.preview:hover{
   text-decoration: gray;
   color: grey;
+}
+div.feature{
+  width: 70%;
+  padding: 2.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+div.feature{
+  padding: 0%;
+}
+div.featureTitle{
+border: 1px solid red;
+}
+div.featuredimage{
+  width: 30%;
+  display: inline-block;
+vertical-align: top;
+border: 1px solid orange;
+
+}
+.featuredImage div{
+  width: 100%;
+}
+div.posts{
+  display: inline-block;
+border: 1px solid green;
+
+}
+h1.featureTitle{
+  padding: 0;
+  border: 0;
 }

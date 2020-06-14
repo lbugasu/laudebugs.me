@@ -14,4 +14,12 @@ const getSinglePost = (slug) =>
     })
     .then((response) => response.items);
 
-export { getBlogPosts, getSinglePost };
+const getTaggedPost = (tag) =>
+  client
+    .getEntries({
+      "fields.tags": tag,
+      content_type: "post",
+    })
+    .then((response) => response.items);
+
+export {getTaggedPost, getBlogPosts, getSinglePost };
