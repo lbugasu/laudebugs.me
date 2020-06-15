@@ -1,11 +1,14 @@
 import React from "react";
-import freshmanYear from "../css/images/freshmanYear.JPG";
-
+import freshmanYear from "../css/images/freshmanyear.jpg";
+import typewriter from "../css/images/typewriter.jpg"
 const FrontImage = () => (
   <>
     <div className="outerBox">
-      <div className="frontImage">
+      {/* <div className="frontImage">
         <img src={freshmanYear} alt="freshman year" />
+      </div> */}
+      <div className="frontImage">
+        <img src={typewriter} alt="freshman year" />
       </div>
     </div>
     <div className="years">
