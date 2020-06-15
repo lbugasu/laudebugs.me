@@ -15,8 +15,8 @@ body {
 
   font-weight: 400;
 
-    cursor: url('../css/images/cursor.png') 20 20,  pointer;
-    font-style: normal;
+  cursor: url("../css/images/cursor-arrow.png") 20 20, pointer;
+  font-style: normal;
 }
 
 code {
