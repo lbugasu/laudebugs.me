@@ -1,4 +1,4 @@
-#Laudebugs.me
+# Laudebugs.me
 
 I built this site with React:  bootstrapped with [Create React App](https://github.com/facebook/create-react-app). and used [Contentful](https://www.contentful.com/). to deliver my blog posts to the site
 
