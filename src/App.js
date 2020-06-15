@@ -9,13 +9,14 @@ import WritingSectionPage from "./Pages/WritingSectionPage";
 import WritingSubjectPage from "./Pages/WritingSubjectPage";
 
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NotFoundPage from "./Pages/NotFoundPage";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+// import NotFoundPage from "./Pages/NotFoundPage";
 
 class App extends Component {
   render() {
     return (
       <Router>
+      <Switch>
         <div className="App">
           <Route path="/" component={HomePage} exact />
           <Route path="/writing" component={Writing} exact />
@@ -27,7 +28,7 @@ class App extends Component {
           <Route
             path="/writing-section/:section"
             component={WritingSectionPage}
-            exact
+            
           />
 
           <Route path="/experiments" component={Experiments} exact />
@@ -38,6 +39,7 @@ class App extends Component {
 
           {/* <Route component={NotFoundPage} exact /> */}
         </div>
+        </Switch>
       </Router>
     );
   }

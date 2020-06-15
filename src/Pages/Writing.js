@@ -4,13 +4,12 @@ import NavBar from "../components/NavBar";
 import WritingFooter from "../components/WritingFooter";
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import { useTaggedPost, useTaggedPosts } from "../custom-hooks";
+import { useTaggedPost} from "../custom-hooks";
 import { readableDate } from "../components/helpers";
 import FeaturedContent from "../components/FeaturedContent"
 export default function Writing() {
-  const { id } = useParams();
   const [post, isLoading] = useTaggedPost("featured");
 
 
@@ -63,9 +62,9 @@ export default function Writing() {
           <h2 className="playlist">playlist</h2>
           <iframe
             src="https://player.vimeo.com/video/425396315?color=ffffff&badge=0"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; fullscreen"
-            allowfullscreen
+            allowFullScreen
             title="We are George Floyd"
           ></iframe>
           <p>
@@ -77,7 +76,7 @@ export default function Writing() {
             src="https://open.spotify.com/embed-podcast/episode/4RfBWD7ODOmxRIi5VdpZMB"
             width="100%"
             height="160"
-            frameborder="0"
+            frameBorder="0"
             allowtransparency="true"
             allow="encrypted-media"
             title="Uprising"

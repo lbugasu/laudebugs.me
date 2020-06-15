@@ -16,7 +16,7 @@ export default function SinglePost() {
       if (miniFeaturesLoading) return <p>Loading...</p>;
   
       return miniFeatures.map((post) => (
-        <div className="miniFeatureOne">
+        <div key={post.fields.slug} className="miniFeatureOne">
         <img
               src={post.fields.feature_image.fields.file.url}
               alt={post.title}

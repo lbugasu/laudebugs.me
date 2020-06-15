@@ -1,6 +1,6 @@
 import React from 'react'
 import {documentToHtmlString} from '@contentful/rich-text-html-renderer'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 import { useSinglePost } from '../custom-hooks'
 

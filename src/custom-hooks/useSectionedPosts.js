@@ -10,10 +10,10 @@ export default function useTaggedPost(tag) {
 
   useEffect(() => {
     promise.then(result => {
-      console.log(result)
       setPost(result)
       setLoading(false)
     })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return [post, isLoading]

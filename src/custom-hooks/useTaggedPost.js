@@ -14,6 +14,7 @@ export default function useTaggedPost(tag) {
       setPost(result[0].fields)
       setLoading(false)
     })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return [posts, isLoading]

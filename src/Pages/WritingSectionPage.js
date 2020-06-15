@@ -8,18 +8,19 @@ import "../components/Posts.less";
 
 import WritingHeader from "../components/WritingHeader";
 import WritingFooter from "../components/WritingFooter";
-import NavBar from "../components/NavBar"
-export default function WritingSectionPage() {
-
+// import NavBar from "../components/NavBar"
+export default function WritingSectionPage({match}) {
+  
   const { section } = useParams();
   const [posts, isLoading] = useSectionedPosts(section);
-  console.log(posts);
+
   const renderPage = () => {
     
     if (isLoading) return <p>Loading...</p>;
 
     return posts.map((post) => (
-      <div className="postFrame">
+      <div key={post.fields.title} className="postFrame">
+      
         <Link
           key={"/writing/" + post.fields.slug}
           to={"/writing/" + post.fields.slug}
