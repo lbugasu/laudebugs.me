@@ -10,10 +10,11 @@ export default function useTaggedPost(tag) {
 
   useEffect(() => {
     promise.then(result => {
-      setPost(result[0].fields)
+      console.log(result)
+      setPost(result)
       setLoading(false)
     })
-  }, [promise])
+  }, [])
 
   return [post, isLoading]
 }

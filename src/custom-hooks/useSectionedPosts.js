@@ -1,20 +1,20 @@
 import { useEffect, useState } from 'react'
 
-import { getTaggedPost } from '../contentful'
+import { getSectionedPosts } from '../contentful'
 
 export default function useTaggedPost(tag) {
-  const promise = getTaggedPost(tag)
+  const promise = getSectionedPosts(tag)
 
-  const [posts, setPost] = useState(null)
+  const [post, setPost] = useState(null)
   const [isLoading, setLoading] = useState(true)
 
   useEffect(() => {
     promise.then(result => {
-      // console.log ()
-      setPost(result[0].fields)
+      console.log(result)
+      setPost(result)
       setLoading(false)
     })
   }, [])
 
-  return [posts, isLoading]
+  return [post, isLoading]
 }

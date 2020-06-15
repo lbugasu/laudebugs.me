@@ -4,15 +4,19 @@ import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
 import { usePosts } from "../custom-hooks/";
 import { readableDate } from "../components/helpers";
+import "../components/Posts.less";
+
 import WritingHeader from "../components/WritingHeader";
 import WritingFooter from "../components/WritingFooter";
-import "../components/Posts.less";
+
 export default function WritingGallery() {
-  console.log(usePosts());
+  
   const [posts, isLoading] = usePosts();
 
   const renderPosts = () => {
+
     if (isLoading) return <p>Loading...</p>;
+    
     return posts.map((post) => (
       <div className="postFrame">
         <Link

@@ -8,19 +8,13 @@ import { Link, useParams } from "react-router-dom";
 
 import { useTaggedPost, useTaggedPosts } from "../custom-hooks";
 import { readableDate } from "../components/helpers";
-
+import FeaturedContent from "../components/FeaturedContent"
 export default function Writing() {
   const { id } = useParams();
   const [post, isLoading] = useTaggedPost("featured");
-  // const [miniFeatureOne, miniFeatureOneLoading] = useTaggedPost(
-  //   "miniFeatureOne"
-  // );
-  // const [miniFeatureTwo, miniFeatureTwoLoading] = useTaggedPost(
-  //   "miniFeatureTwo"
-  // );
+
 
   const feature = post;
-
   const renderPost = () => {
     if (isLoading) return <p>Loading...</p>;
     return (
@@ -60,58 +54,9 @@ export default function Writing() {
               </div>
               <hr className="feat"></hr>
             </div>
-            {/* <div className="miniFeatureOne">
-              <img
-                src={miniFeatureOne.feature_image.fields.file.url}
-                alt={miniFeatureOne.title}
-              />
-              <Link
-                key={"/writing/" + miniFeatureOne.slug}
-                to={"/writing/" + miniFeatureOne.slug}
-                className="preview"
-              >
-                <h1 className="featureTitle">{miniFeatureOne.title}</h1>
-                <small className="post__intro__date">
-                  {readableDate(miniFeatureOne.date)}
-                </small>
-                <div
-                  className="featureContent"
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      documentToHtmlString(miniFeatureOne.body).substring(
-                        0,
-                        300
-                      ) + " ... ",
-                  }}
-                ></div>
-              </Link>
-            </div>
-            <div className="miniFeatureTwo">
-              <img
-                src={miniFeatureTwo.feature_image.fields.file.url}
-                alt={miniFeatureTwo.title}
-              />
-              <Link
-                key={"/writing/" + miniFeatureTwo.slug}
-                to={"/writing/" + miniFeatureTwo.slug}
-                className="preview"
-              >
-                <h1 className="featureTitle">{miniFeatureTwo.title}</h1>
-                <small className="post__intro__date">
-                  {readableDate(miniFeatureTwo.date)}
-                </small>
-                <div
-                  className="featureContent"
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      documentToHtmlString(miniFeatureTwo.body).substring(
-                        0,
-                        300
-                      ) + " ... ",
-                  }}
-                ></div>
-              </Link>
-            </div> */}
+  <FeaturedContent/>
+            
+            
           </div>
         </div>
         <div className="playlist">
@@ -142,5 +87,10 @@ export default function Writing() {
       </>
     );
   };
-  return <div className="post">{renderPost()}</div>;
+
+
+ 
+  return <div className="post">
+  {renderPost()}
+  </div>;
 }

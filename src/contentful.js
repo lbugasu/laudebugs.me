@@ -29,5 +29,12 @@ const getTaggedPosts = (tag) =>
       content_type: "post",
     })
     .then((response) => response.items);
-
-export { getTaggedPost, getBlogPosts, getSinglePost, getTaggedPosts };
+const getSectionedPosts = (section) =>
+    client
+      .getEntries({
+        "fields.section": section,
+        content_type: "post",
+      })
+      .then((response) => response.items);
+  
+export { getTaggedPost, getBlogPosts, getSinglePost, getTaggedPosts, getSectionedPosts };

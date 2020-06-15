@@ -13,6 +13,6 @@ export default function usePosts() {
       setPosts(blogPosts)
       setLoading(false)
     })
-  }, [])
+  }, []);
   return [posts, isLoading]
 }
