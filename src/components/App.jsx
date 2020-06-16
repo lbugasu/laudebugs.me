@@ -1,9 +1,9 @@
-import React from 'react'
-import { Router, Switch, Route } from 'react-router-dom'
-import { createBrowserHistory } from 'history'
+import React from "react";
+import { Router, Switch, Route } from "react-router-dom";
+import { createBrowserHistory } from "history";
 
-import Posts from './posts/Posts'
-import SinglePost from './single-post/SinglePost'
+import Posts from "./posts/Posts";
+import SinglePost from "./single-post/SinglePost";
 
 export default function App() {
   return (
@@ -13,5 +13,5 @@ export default function App() {
         <Route path="/:id" component={SinglePost} />
       </Switch>
     </Router>
-  )
+  );
 }

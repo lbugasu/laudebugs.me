@@ -16,7 +16,7 @@ export default function WritingGallery() {
   const renderPosts = () => {
 
     if (isLoading) return <p>Loading...</p>;
-    
+     
     return posts.map((post) => (
       <div className="postFrame">
         <Link
