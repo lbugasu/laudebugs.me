@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/laudebugs.me/static/css/main.aedf2736.chunk.css",
+    "main.js": "/laudebugs.me/static/js/main.ad4feb77.chunk.js",
+    "main.js.map": "/laudebugs.me/static/js/main.ad4feb77.chunk.js.map",
+    "runtime-main.js": "/laudebugs.me/static/js/runtime-main.a4cbf8f6.js",
+    "runtime-main.js.map": "/laudebugs.me/static/js/runtime-main.a4cbf8f6.js.map",
+    "static/js/2.ee65749e.chunk.js": "/laudebugs.me/static/js/2.ee65749e.chunk.js",
+    "static/js/2.ee65749e.chunk.js.map": "/laudebugs.me/static/js/2.ee65749e.chunk.js.map",
+    "index.html": "/laudebugs.me/index.html",
+    "precache-manifest.4097eaeeffb3cd18479b8cdaeb87ac75.js": "/laudebugs.me/precache-manifest.4097eaeeffb3cd18479b8cdaeb87ac75.js",
+    "service-worker.js": "/laudebugs.me/service-worker.js",
+    "static/css/main.aedf2736.chunk.css.map": "/laudebugs.me/static/css/main.aedf2736.chunk.css.map",
+    "static/js/2.ee65749e.chunk.js.LICENSE.txt": "/laudebugs.me/static/js/2.ee65749e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/laudebugs.me/static/media/GlacialIndifference-Bold.f801e234.otf",
+    "static/media/Posts.less": "/laudebugs.me/static/media/Posts.ada00957.less",
+    "static/media/SinglePost.less": "/laudebugs.me/static/media/SinglePost.1157d6bc.less",
+    "static/media/typewriter-large.jpg": "/laudebugs.me/static/media/typewriter-large.c7b8b2f4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4cbf8f6.js",
+    "static/js/2.ee65749e.chunk.js",
+    "static/css/main.aedf2736.chunk.css",
+    "static/js/main.ad4feb77.chunk.js"
+  ]
+}
