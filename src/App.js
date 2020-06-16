@@ -7,6 +7,7 @@ import Writing from "./Pages/Writing";
 import WritingGallery from "./Pages/WritingGallery";
 import WritingSectionPage from "./Pages/WritingSectionPage";
 import WritingSubjectPage from "./Pages/WritingSubjectPage";
+import UpcomingWork from "./Pages/UpcomingWork"
 
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
@@ -36,6 +37,7 @@ class App extends Component {
           <Route path="/writing-gallery" component={WritingGallery} exact />
           <Route path="/writing/:id" component={PostPage} exact />
           <Route path="/worknotes" component={WorkNotes} exact />
+          <Route path="/writing-currently" component={UpcomingWork} exact />
 
           {/* <Route component={NotFoundPage} exact /> */}
         </div>

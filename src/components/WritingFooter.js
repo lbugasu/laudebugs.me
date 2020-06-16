@@ -25,7 +25,7 @@ const WritingFooter = () => (
       <div className="footerSection">
         <h3>More</h3>
         <Link to="/">home</Link>
-        <Link to="/writing/upcoming-work">upcoming work</Link>
+        <Link to="/writing-currently">current writing</Link>
         <Link to="/writing-gallery">writing gallery</Link>
         <Link to="/work-notes">work notes</Link>
         <Link to="/experiments">experiments</Link>

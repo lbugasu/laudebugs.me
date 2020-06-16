@@ -287,3 +287,62 @@ h3.featureTitle {
   text-align: left;
   color: #258309;
 }
+@media only screen and (max-width: 600px){
+  .homeNav{
+    display: block;
+    width: 100%;
+  }
+  .laurence{
+    font-size: 100%;
+  }
+  #right{
+    text-align: center;
+  }
+  .homeNav h1{
+    font-size: 200%;
+  }
+  .lb {
+    width: 90%;
+  }
+  div.topmost {
+    height: 25vh;
+    margin: 0;
+  }
+  h1{
+    margin: 0;
+    padding: 0;
+  }
+  .pageTitle{
+    font-size: 100%;
+  }
+  div.postFrame{
+    width: 45%;
+  }
+  .footerSection{
+    width: 50%;
+  }
+  div.menuitem{
+    width: 50%;
+  }
+  div.playlist{
+    width: 95%;
+    display: block;
+  }
+  div.content{
+    width: 95%;
+  }
+  
+}
+.current{
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+  padding: 2%;
+  vertical-align: top;
+}
+.current h2{
+  text-align: center;
+}
+#left{
+  border-right: black solid 1px;
+}

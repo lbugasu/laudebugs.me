@@ -6,12 +6,11 @@ import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
 import { Link } from "react-router-dom";
 
-import { useTaggedPost} from "../custom-hooks";
+import { useTaggedPost } from "../custom-hooks";
 import { readableDate } from "../components/helpers";
-import FeaturedContent from "../components/FeaturedContent"
+import FeaturedContent from "../components/FeaturedContent";
 export default function Writing() {
   const [post, isLoading] = useTaggedPost("featured");
-
 
   const feature = post;
   const renderPost = () => {
@@ -40,7 +39,7 @@ export default function Writing() {
                     dangerouslySetInnerHTML={{
                       __html:
                         documentToHtmlString(feature.body).substring(0, 300) +
-                        " ... ",
+                        " ... "
                     }}
                   ></div>
                 </Link>
@@ -53,9 +52,7 @@ export default function Writing() {
               </div>
               <hr className="feat"></hr>
             </div>
-  <FeaturedContent/>
-            
-            
+            <FeaturedContent />
           </div>
         </div>
         <div className="playlist">
@@ -66,6 +63,8 @@ export default function Writing() {
             allow="autoplay; fullscreen"
             allowFullScreen
             title="We are George Floyd"
+            width="100%"
+            height="100%"
           ></iframe>
           <p>
             <a href="https://vimeo.com/425396315">WE ARE GEORGE FLOYD</a> from{" "}
@@ -81,15 +80,20 @@ export default function Writing() {
             allow="encrypted-media"
             title="Uprising"
           ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/3QEuqzMi8UJMg73LXihsRG"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+            title="For Ima"
+          ></iframe>
         </div>
         <WritingFooter />
       </>
     );
   };
 
-
- 
-  return <div className="post">
-  {renderPost()}
-  </div>;
+  return <div className="post">{renderPost()}</div>;
 }

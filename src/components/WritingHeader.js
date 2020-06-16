@@ -12,14 +12,14 @@ const WritingHeader = ({ section }) => (
       <div className="pageTitle">
         <h1>
           <Link key={"/writing"} to={"/writing"} className="mainSection">
-            | writing
+            | writing 
           </Link>
-          <em className="subSection">{section}</em>
+           <em className="subSection">{section}</em>
         </h1>
       </div>
-      <div className="menu">
+      {/* <div className="menu">
         <img className="menuButton" src={MenuButton} alt="menu Button" />
-      </div>
+      </div> */}
     </div>
   </>
 );

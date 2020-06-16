@@ -1,12 +1,12 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
-import { getTaggedPost } from '../contentful'
+import { getTaggedPost } from '../contentful';
 
 export default function useTaggedPost(tag) {
   const promise = getTaggedPost(tag)
 
   const [posts, setPost] = useState(null)
-  const [isLoading, setLoading] = useState(true)
+  const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
     promise.then(result => {

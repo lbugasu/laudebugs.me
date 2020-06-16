@@ -13,7 +13,7 @@ export default function WritingSubjectPage() {
 
   const { subject } = useParams();
   const [posts, isLoading] = useTaggedPosts(subject);
-  console.log(subject);
+  console.log(subject)
   const renderPage = () => {
     
     if (isLoading) return <p>Loading...</p>;

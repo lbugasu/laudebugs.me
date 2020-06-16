@@ -49,7 +49,7 @@ export default function WritingSectionPage({match}) {
   };
   return (
   <>
-    <WritingHeader section={"/" + section} />
+    <WritingHeader section={"/ " + section} />
     {/*We realize that the script for requesting a different section isn't loaded when it's already loaded on the page*/}
     {/* <NavBar/> */}
     {renderPage()}
