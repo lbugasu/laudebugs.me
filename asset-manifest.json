@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.6b9343de.chunk.css",
+    "main.js": "/me/static/js/main.986267f7.chunk.js",
+    "main.js.map": "/me/static/js/main.986267f7.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.1f48a54c.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.1f48a54c.js.map",
+    "static/js/2.ee65749e.chunk.js": "/me/static/js/2.ee65749e.chunk.js",
+    "static/js/2.ee65749e.chunk.js.map": "/me/static/js/2.ee65749e.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.d75897f0529b31c4305fa16976a5e3ae.js": "/me/precache-manifest.d75897f0529b31c4305fa16976a5e3ae.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/main.6b9343de.chunk.css.map": "/me/static/css/main.6b9343de.chunk.css.map",
+    "static/js/2.ee65749e.chunk.js.LICENSE.txt": "/me/static/js/2.ee65749e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/me/static/media/GlacialIndifference-Bold.f801e234.otf",
+    "static/media/Posts.less": "/me/static/media/Posts.ada00957.less",
+    "static/media/SinglePost.less": "/me/static/media/SinglePost.1157d6bc.less",
+    "static/media/typewriter-large.jpg": "/me/static/media/typewriter-large.c7b8b2f4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f48a54c.js",
+    "static/js/2.ee65749e.chunk.js",
+    "static/css/main.6b9343de.chunk.css",
+    "static/js/main.986267f7.chunk.js"
+  ]
+}
