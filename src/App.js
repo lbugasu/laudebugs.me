@@ -29,9 +29,7 @@ class App extends Component {
           <Route
             path="/writing-section/:section"
             component={WritingSectionPage}
-            
           />
-
           <Route path="/experiments" component={Experiments} exact />
           <Route path="/post" component={PostPage} exact />
           <Route path="/writing-gallery" component={WritingGallery} exact />
