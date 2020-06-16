@@ -9,11 +9,13 @@ const WritingFooter = () => (
       <div className="footerSection">
         <h3>Subjects</h3>
         <Link to="/writing-subjects/faith">faith</Link>
+        <Link to="/writing-subjects/love">love</Link>
+        <Link to="/writing-subjects/body">body</Link>
+        <Link to="/writing-subjects/june">june</Link>
+        <Link to="/writing-subjects/travel">travel</Link>
+
         <Link to="/writing-subjects/blackness">blackness</Link>
         <Link to="/writing-subjects/pan-africanism">pan-africanism</Link>
-        <Link to="/writing-subjects/love">love</Link>
-        <Link to="/writing-subjects/death">death</Link>
-        <Link to="/writing-subjects/travel">travel</Link>
       </div>
       <div className="footerSection">
         <h3>Sections</h3>

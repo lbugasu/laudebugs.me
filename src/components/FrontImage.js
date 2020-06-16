@@ -8,7 +8,7 @@ const FrontImage = () => (
         <img src={freshmanYear} alt="freshman year" />
       </div> */}
       <div className="frontImage">
-        <img className="frontMatter" src={typewriter}  alt="freshman year" />
+        <img className="frontMatter" src={typewriter} srcSet='../css/images/typewriter-small.jpg 1080 ../css/images/typewriter-medium.jpg 720 ../css/images/typewriter-small.jpg 320' alt="freshman year" />
       </div>
     </div>
     <div className="years">
