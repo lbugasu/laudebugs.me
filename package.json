@@ -1,6 +1,9 @@
 {
   "name": "laudebugs.me-frontend",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^13.4.0",
