@@ -13,13 +13,13 @@ I built this site with React: bootstrapped with [Create React App](https://githu
 As a personal website, I wanted to make use of React to build the website and the pages
 
 /homepage
- - A simple page which changes the featured image when you hover over the year
+A simple page which changes the featured image when you hover over the year
 
 ![home](wireframes/homepage.png)
 
 /writing
-- Since I'm still deciding on whether to move my blog completely away from wordpress to my personal site, I'm gauging the features and flexibility available to me. As of now, I've been able to pull the posts form Contentful to the writing page. However, I have to consider other features to implement such as comments and likes by readers to drive engagement
-! [writing](wireframes/writing.png)
+Since I'm still deciding on whether to move my blog completely away from wordpress to my personal site, I'm gauging the features and flexibility available to me. As of now, I've been able to pull the posts form Contentful to the writing page. However, I have to consider other features to implement such as comments and likes by readers to drive engagement
+![writing](wireframes/writing.png)
 
 /a single post page
 ![a-single-post-page](wireframes/writing-post-page.png)
