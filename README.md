@@ -32,4 +32,9 @@ For all my posts, I have a single page that displays all the posts
 ### Credits and Attributions:
 
 - Cursor Vector infographic created by [Freepik](https://www.freepik.com/free-photos-vectors/infographic)
-- Deploying to heroku: [Tutorial: how to deploy a production React app to Heroku](https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08) by Jeremy Gottfried
+
+## Future work
+
+1. Adding remaining pages
+2. Deploying website
+I attempted to deploy the site to Heroku using the following instructions but it keeps failing: [Tutorial: how to deploy a production React app to Heroku](https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08) by Jeremy Gottfried
