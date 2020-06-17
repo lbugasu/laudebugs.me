@@ -29,6 +29,28 @@ For all my posts, I have a single page that displays all the posts
 
 ![writing-gallery](wireframes/writing-gallery-page.png)
 
+## Running the app
+1. Using React Build
+``` bash
+# install dependencies
+npm i
+
+# build with react
+npm run build
+
+# serve 
+npm serve -s
+```
+
+2. Run with local server
+``` bash
+# from root folder install dependencies 
+npm i
+
+# run app - served on localhost:8080
+node server.js
+```
+
 ### Credits and Attributions:
 
 - Cursor Vector infographic created by [Freepik](https://www.freepik.com/free-photos-vectors/infographic)
