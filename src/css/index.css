@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url("./fonts/glacial-indifference/GlacialIndifference-Bold.otf");
+}
+
+body {
+  margin: 0;
+  font-family: "GlacialIndifference";
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f0f0;
+
+  font-family: minerva-modern, sans-serif;
+
+  font-weight: 400;
+
+  cursor: url("../css/images/cursor-arrow.png") 8 8, pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a:hover{
+  cursor: url("../css/images/cursor-arrow.png") 8 8, pointer;
+
+}
