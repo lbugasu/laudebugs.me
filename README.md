@@ -51,6 +51,17 @@ npm i
 node server.js
 ```
 
+3. Running in development mode
+``` bash
+# edit start script file in package.json file
+
+"start": "react-scripts start",
+
+# start development server
+
+npm start
+```
+
 ### Credits and Attributions:
 
 - Cursor Vector infographic created by [Freepik](https://www.freepik.com/free-photos-vectors/infographic)

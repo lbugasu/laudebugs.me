@@ -10,14 +10,16 @@ import WritingHeader from "../components/WritingHeader";
 import WritingFooter from "../components/WritingFooter";
 
 export default function WritingGallery() {
-  
+
   const [posts, isLoading] = usePosts();
 
   const renderPosts = () => {
+    console.log(posts)
+    // console.log(posts[0].fields.date)
 
     if (isLoading) return <p>Loading...</p>;
-     
     return posts.map((post) => (
+
       <div className="postFrame">
         <Link
           key={"/writing/" + post.fields.slug}

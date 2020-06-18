@@ -48,6 +48,17 @@
   text-align: left;
   font-weight: 200;
 }
+.genNav{
+  width: 60%;
+  font-size: 32px;
+  display: inline-block;
+}
+.genNav a{
+  display: inline-block;
+  padding: 5%;
+  text-decoration: underline;
+  color: black;
+}
 .laurence {
   letter-spacing: 2px;
 }

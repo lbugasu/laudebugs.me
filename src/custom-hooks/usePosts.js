@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { readableDate } from "../components/helpers";
 
 import { getBlogPosts } from '../contentful'
 
@@ -10,7 +11,19 @@ export default function usePosts() {
 
   useEffect(() => {
     promise.then(blogPosts => {
-      setPosts(blogPosts)
+      const posts = blogPosts.sort(function (a, b) {
+        // console.log(readableDate(a.fields.date))
+        // console.log(readableDate(b.fields.date))
+
+        if (readableDate(a.fields.date) > readableDate(b.fields.date)) return 1
+        else if (readableDate(a.fields.date) < readableDate(b.fields.date)) return -1
+        else return 0
+
+      })
+      console.log(blogPosts)
+
+      console.log(posts)
+      setPosts(posts)
       setLoading(false)
     })
   }, []);
