@@ -11,18 +11,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f1f0f0;
 
-  font-family: minerva-modern, sans-serif;
+  font-family: masqualero, sans-serif;
 
-  font-weight: 400;
+  font-weight: 300;
 
-  cursor: url("../css/images/cursor-arrow.png") 8 8, pointer;
+  font-style: normal;
+
+  cursor: url("../css/images/cursor-dot.png") 8 8, pointer;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-a:hover{
-  cursor: url("../css/images/cursor-arrow.png") 8 8, pointer;
-
+a:hover {
+  cursor: url("../css/images/cursor-select.png") 8 8, pointer;
 }

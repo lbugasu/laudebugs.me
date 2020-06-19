@@ -6,7 +6,7 @@ const WritingHeader = () => (
     <div className="topmost">
       <div className="lb">
         <Link className="lb" to="/">
-          <h1 className="lb">Laurence</h1>
+          <h1 className="genNameHead">Laurence.</h1>
         </Link>
       </div>
       <div className="genNav" id="right">

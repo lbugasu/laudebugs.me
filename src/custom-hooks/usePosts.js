@@ -18,7 +18,7 @@ export default function usePosts() {
         if (readableDate(a.fields.date) > readableDate(b.fields.date)) return 1
         else if (readableDate(a.fields.date) < readableDate(b.fields.date)) return -1
         else return 0
-
+        
       })
       console.log(blogPosts)
 
