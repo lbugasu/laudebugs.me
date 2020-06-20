@@ -12,36 +12,38 @@ import Write from "./Pages/Write"
 
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import NotFoundPage from "./Pages/NotFoundPage";
+import NotFoundPage from "./Pages/NotFoundPage";
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <Switch>
-          <div className="App">
+
+        <div className="App">
+          <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/writing" component={Writing} exact />
             <Route
               path="/writing-subjects/:subject"
               component={WritingSubjectPage}
-              exact
+
             />
             <Route
               path="/writing-section/:section"
               component={WritingSectionPage}
             />
-            <Route path="/experiments" component={Experiments} exact />
-            <Route path="/post" component={PostPage} exact />
-            <Route path="/writing-gallery" component={WritingGallery} exact />
-            <Route path="/writing/:id" component={PostPage} exact />
-            <Route path="/worknotes" component={WorkNotes} exact />
-            <Route path="/writing-currently" component={UpcomingWork} exact />
-            <Route path="/write-to-me" component={Write} exact />
+            <Route path="/experiments" component={Experiments} />
+            <Route path="/post" component={PostPage} />
+            <Route path="/writing-gallery" component={WritingGallery} />
+            <Route path="/writing/:id" component={PostPage} />
+            <Route path="/worknotes" component={WorkNotes} />
+            <Route path="/writing-currently" component={UpcomingWork} />
+            <Route path="/write-to-me" component={Write} />
 
-            {/* <Route component={NotFoundPage} exact /> */}
-          </div>
-        </Switch>
+            <Route component={NotFoundPage} />
+          </Switch>
+
+        </div>
       </Router>
     );
   }
