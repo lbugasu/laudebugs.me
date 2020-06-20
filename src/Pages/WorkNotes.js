@@ -15,7 +15,7 @@ export default function WorkNotes() {
           <p>{note.description}</p>
           <img src={note.img}></img>
           <p>{(note.tech).map((t) => (" . " + t + " "))}...</p>
-          <a key={note.link} href={note.link}>See Work</a>
+          <a target="_blank" key={note.link} href={note.link}>See Work</a>
         </div>
         <br className="split"></br>
         <br className="split"></br>
