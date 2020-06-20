@@ -68,6 +68,9 @@ npm start
 
 ## Future work
 
-1. Adding remaining pages
-2. Deploying website
+1. - [ ] Adding Experiments page
+2. - [ ] Connect Form to MySQL database
+3. - [X] Deploying website
 I attempted to deploy the site to Heroku using the following instructions but it keeps failing: [Tutorial: how to deploy a production React app to Heroku](https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08) by Jeremy Gottfried
+Deployed site to [laudebugs](https://laudebugs.tamaduni.org)
+4. - [ ] Figure out how to handle comments on blog site
