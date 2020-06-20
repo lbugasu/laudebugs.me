@@ -348,6 +348,18 @@ h3.featureTitle {
   text-align: left;
   color: #258309;
 }
+@media only screen and (max-width:1000px){
+  div.worknotes{
+    width: 100%;
+    font-size: 50%;
+  }
+  div.worknotes h1{
+    font-size: 24px;
+  }
+  h1.word{
+    letter-spacing: 5px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .homeNav {
     display: block;
@@ -367,8 +379,10 @@ h3.featureTitle {
     width: 90%;
   }
   div.topmost {
-    height: 25vh;
     margin: 0;
+  }
+  textarea{
+    width: 90%;
   }
   h1 {
     margin: 0;
@@ -408,4 +422,60 @@ h3.featureTitle {
 }
 #left {
   border-right: black solid 1px;
+}
+div.worknotes{
+  margin: 0;
+  padding: 0;
+}
+.worknotes h1{
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+  font-family: masqualero-groove, sans-serif;
+font-stretch: narrower;
+font-weight: 400;
+
+font-style: normal;
+}
+.side{
+  
+  width: 30%;
+  display: inline-block;
+  border-right: 1px solid black;
+  vertical-align: top;
+}
+.main{
+  width: 60%;
+  display: inline-block;
+  padding: 2.5%;
+}
+.letter{
+  padding-right: 64px;
+letter-spacing: normal;
+}
+.invisible{
+  opacity: 0%;
+}
+.word{
+  letter-spacing: 12px;
+}
+.kazimoja {
+  width: 100%;
+  border: 1.5px solid black;
+
+}
+.kazimoja hr{
+  border: none;
+  height: 1.5px;
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+}
+.kazimoja img{
+  width: 87.5%;
+}
+br.split{
+  padding-top: 10%;
+}
+.mainStuff{
+  padding-top: 3%;
 }

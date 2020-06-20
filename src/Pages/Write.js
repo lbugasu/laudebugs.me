@@ -7,7 +7,7 @@ const Homepage = ({ match }) => (
     <GeneralHeader />
     <h1 className="write">Write to me</h1>
     <h2 className="write">
-      [<em>I write back</em> (◍•ᴗ•◍)]
+      <em>I write back</em> (◍•ᴗ•◍)
     </h2>
 
     <div className="WriteToMe">
@@ -18,11 +18,13 @@ const Homepage = ({ match }) => (
             id="thoughts"
             name="message"
             rows="7"
-            cols="75"
-            placeholder="Have a question or something to share... Or maybe something you'd like to work on together... Type away"
+            cols="50"
+            placeholder="Have a question or something to share... Or maybe something you'd like to work on together... Type on"
           ></textarea>
         </label>
         <div className="sending">
+          <input id="thoughts" name="email" placeholder="your email" required />
+
           <br></br>
           <div id="send" className="send">
             <button
