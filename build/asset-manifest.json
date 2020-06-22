@@ -1,17 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c5ba112.chunk.css",
-    "main.js": "/static/js/main.967cc3c6.chunk.js",
-    "main.js.map": "/static/js/main.967cc3c6.chunk.js.map",
+    "main.css": "/static/css/main.1fab1bd7.chunk.css",
+    "main.js": "/static/js/main.40a724ad.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.f2a20adc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f2a20adc.js.map",
-    "static/js/2.ee65749e.chunk.js": "/static/js/2.ee65749e.chunk.js",
-    "static/js/2.ee65749e.chunk.js.map": "/static/js/2.ee65749e.chunk.js.map",
+    "static/js/2.a0328184.chunk.js": "/static/js/2.a0328184.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.de4be83bc96b1578ab2eae82d43c9e8d.js": "/precache-manifest.de4be83bc96b1578ab2eae82d43c9e8d.js",
+    "precache-manifest.3fe8136dc26f4d8a7789d29f27beca7d.js": "/precache-manifest.3fe8136dc26f4d8a7789d29f27beca7d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4c5ba112.chunk.css.map": "/static/css/main.4c5ba112.chunk.css.map",
-    "static/js/2.ee65749e.chunk.js.LICENSE.txt": "/static/js/2.ee65749e.chunk.js.LICENSE.txt",
+    "static/js/2.a0328184.chunk.js.LICENSE.txt": "/static/js/2.a0328184.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/GlacialIndifference-Bold.f801e234.otf",
     "static/media/Posts.less": "/static/media/Posts.a696beac.less",
     "static/media/SinglePost.less": "/static/media/SinglePost.aceae8da.less",
@@ -19,8 +15,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f2a20adc.js",
-    "static/js/2.ee65749e.chunk.js",
-    "static/css/main.4c5ba112.chunk.css",
-    "static/js/main.967cc3c6.chunk.js"
+    "static/js/2.a0328184.chunk.js",
+    "static/css/main.1fab1bd7.chunk.css",
+    "static/js/main.40a724ad.chunk.js"
   ]
 }

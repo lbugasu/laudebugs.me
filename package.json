@@ -17,6 +17,7 @@
     "gsap": "^3.3.3",
     "history": "^5.0.0",
     "markdown": "^0.5.0",
+    "nodemon": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
