@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c5ba112.chunk.css",
-    "main.js": "/static/js/main.967cc3c6.chunk.js",
-    "main.js.map": "/static/js/main.967cc3c6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f2a20adc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f2a20adc.js.map",
-    "static/js/2.ee65749e.chunk.js": "/static/js/2.ee65749e.chunk.js",
-    "static/js/2.ee65749e.chunk.js.map": "/static/js/2.ee65749e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.de4be83bc96b1578ab2eae82d43c9e8d.js": "/precache-manifest.de4be83bc96b1578ab2eae82d43c9e8d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4c5ba112.chunk.css.map": "/static/css/main.4c5ba112.chunk.css.map",
-    "static/js/2.ee65749e.chunk.js.LICENSE.txt": "/static/js/2.ee65749e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/GlacialIndifference-Bold.f801e234.otf",
-    "static/media/Posts.less": "/static/media/Posts.a696beac.less",
-    "static/media/SinglePost.less": "/static/media/SinglePost.aceae8da.less",
-    "static/media/typewriter-large.jpg": "/static/media/typewriter-large.c7b8b2f4.jpg"
+    "main.css": "/laudebugs.me/static/css/main.82d8aa79.chunk.css",
+    "main.js": "/laudebugs.me/static/js/main.97060bdf.chunk.js",
+    "runtime-main.js": "/laudebugs.me/static/js/runtime-main.a4cbf8f6.js",
+    "static/js/2.19a601a3.chunk.js": "/laudebugs.me/static/js/2.19a601a3.chunk.js",
+    "index.html": "/laudebugs.me/index.html",
+    "precache-manifest.836682ade44ba74709437fad08ed48c0.js": "/laudebugs.me/precache-manifest.836682ade44ba74709437fad08ed48c0.js",
+    "service-worker.js": "/laudebugs.me/service-worker.js",
+    "static/js/2.19a601a3.chunk.js.LICENSE.txt": "/laudebugs.me/static/js/2.19a601a3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/laudebugs.me/static/media/GlacialIndifference-Bold.f801e234.otf",
+    "static/media/Posts.less": "/laudebugs.me/static/media/Posts.a696beac.less",
+    "static/media/SinglePost.less": "/laudebugs.me/static/media/SinglePost.aceae8da.less",
+    "static/media/typewriter-large.jpg": "/laudebugs.me/static/media/typewriter-large.c7b8b2f4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2a20adc.js",
-    "static/js/2.ee65749e.chunk.js",
-    "static/css/main.4c5ba112.chunk.css",
-    "static/js/main.967cc3c6.chunk.js"
+    "static/js/runtime-main.a4cbf8f6.js",
+    "static/js/2.19a601a3.chunk.js",
+    "static/css/main.82d8aa79.chunk.css",
+    "static/js/main.97060bdf.chunk.js"
   ]
 }

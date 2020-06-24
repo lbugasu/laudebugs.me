@@ -74,3 +74,8 @@ npm start
 I attempted to deploy the site to Heroku using the following instructions but it keeps failing: [Tutorial: how to deploy a production React app to Heroku](https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08) by Jeremy Gottfried
 Deployed site to [laudebugs](https://laudebugs.tamaduni.org)
 4. - [ ] Figure out how to handle comments on blog site
+
+### Notes
+**on deploying:**
+Deploying to github pages brought interesting results. On the first attempt, the website was deploying as a blank page. However, following this [Deploying React Applications to Github Pages](https://medium.com/better-programming/how-to-host-your-react-app-on-github-pages-for-free-919ad201a4cb), I changed used `HashRouter` instead of `ReactRouter`:
+I used these instructions [Managing a custom domain for your GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site) to deploy a custom domain in github pages
