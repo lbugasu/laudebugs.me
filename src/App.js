@@ -11,7 +11,7 @@ import UpcomingWork from "./Pages/UpcomingWork"
 import Write from "./Pages/Write"
 
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NotFoundPage from "./Pages/NotFoundPage";
 
 class App extends Component {
