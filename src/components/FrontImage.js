@@ -1,6 +1,6 @@
 import React from "react";
 // import freshmanYear from "../css/images/freshmanyear.jpg";
-import typewriter from "../css/images/typewriter-large.jpg"
+import typewriter from "../css/images/typewriter-large.jpg";
 const FrontImage = () => (
   <>
     <div className="outerBox">
@@ -8,7 +8,7 @@ const FrontImage = () => (
         <img src={freshmanYear} alt="freshman year" />
       </div> */}
       <div className="frontImage">
-        <img className="frontMatter" src={typewriter}  alt="freshman year" />
+        <img className="frontMatter" src={typewriter} alt="freshman year" />
       </div>
     </div>
     <div className="years">

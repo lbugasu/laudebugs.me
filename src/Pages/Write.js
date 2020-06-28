@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState /*useEffect*/ } from "react";
 // import NavBarHome from "../components/NavBarHome";
 // import FrontImage from "../components/FrontImage";
 import GeneralHeader from "../components/GeneralHeader";
-import { Redirect } from "react-router-dom";
+// import { Redirect } from "react-router-dom";
 
-
-export default function Homepage({ match }) {
-  const [message, setMessage] = useState('')
-  const [email, setEmail] = useState('')
+export default function Homepage(/*{match}*/) {
+  const [message, setMessage] = useState("");
+  // const [email, setEmail] = useState('')
 
   // const sendMessage = async ()=>{
   //   const response = await fetch('http://localhost:8000/api/message',{
@@ -49,7 +48,8 @@ export default function Homepage({ match }) {
                 rows="7"
                 cols="50"
                 placeholder="Have a question or something to share... Or maybe something you'd like to work on together... Type on"
-                value={message} onChange={(event) => setMessage(event.target.value)}
+                value={message}
+                onChange={(event) => setMessage(event.target.value)}
               ></textarea>
             </label>
             <div className="sending">
@@ -64,13 +64,16 @@ export default function Homepage({ match }) {
                   data-callback="onSubmit"
                   data-action="submit"
                   onClick={() => {
-                    window.open(`mailto:lbugasu@gmail.com?subject=Message&body=${message}`);
-                    document.getElementById('frm').addEventListener('submit', function (evt) {
-                      evt.preventDefault();
-                      setMessage('')
-                    })
+                    window.open(
+                      `mailto:lbugasu@gmail.com?subject=Message&body=${message}`
+                    );
+                    document
+                      .getElementById("frm")
+                      .addEventListener("submit", function (evt) {
+                        evt.preventDefault();
+                        setMessage("");
+                      });
                     // sendMessage()
-
                   }}
                 >
                   - Send away -
@@ -81,13 +84,11 @@ export default function Homepage({ match }) {
         </div>
       </>
     );
-  }
+  };
   return (
     <>
       <GeneralHeader />
       {renderPage()}
     </>
-  )
+  );
 }
-
-

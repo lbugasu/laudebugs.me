@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import MenuButton from "../css/images/menubutton.png";
+// import MenuButton from "../css/images/menubutton.png";
 const WritingHeader = () => (
   <>
     <div className="topmost">

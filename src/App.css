@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  padding-top: 0;
+  align-self: center;
 }
 
 .App-logo {
@@ -32,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -44,27 +46,33 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .homeNav h1 {
   text-align: left;
   font-weight: 200;
 }
+
 .genNav {
   width: 60%;
   font-size: 32px;
   display: inline-block;
 }
+
 .genNav a {
   display: inline-block;
   padding: 5%;
   text-decoration: underline;
   color: black;
 }
+
 .laurence {
   letter-spacing: 2px;
 }
+
 .bugasu {
   letter-spacing: 19px;
 }
+
 h1.write {
   font-size: 48px;
   font-family: masqualero, sans-serif;
@@ -73,6 +81,7 @@ h1.write {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
 h2.write {
   padding: 0;
   margin: 0;
@@ -81,12 +90,14 @@ h2.write {
 
   font-weight: 300;
 }
+
 #thoughts {
   font-family: masqualero, sans-serif;
   font-size: 24px;
   font-weight: 400;
   font-style: normal;
 }
+
 button#sendButton {
   background-color: black;
   display: block;
@@ -98,43 +109,54 @@ button#sendButton {
   font-style: normal;
   border-radius: 5px;
 }
+
 div.send {
   text-align: center;
   display: inline-block;
 }
+
 div.g-recaptcha {
   align-items: center;
   width: 1px solid gold;
   display: inline-block;
 }
+
 #right {
   text-align: right;
 }
+
 .sending {
   text-align: center;
 }
+
 .homeNav a {
   text-decoration: underline;
   color: black;
   font-size: 28px;
 }
+
 .homeNav a:hover {
   text-decoration: line-through;
 }
+
 .homeNav a:visited {
   color: black;
 }
+
 .frontImage {
   width: 100%;
   text-align: left;
   vertical-align: top;
 }
+
 img {
   width: 100%;
 }
+
 div.WriteToMe {
   align-content: center;
 }
+
 div.outerBox {
   width: 70%;
   padding: 5%;
@@ -142,6 +164,7 @@ div.outerBox {
   text-align: left;
   vertical-align: top;
 }
+
 div.years {
   width: 15%;
   padding-right: 5%;
@@ -154,67 +177,96 @@ h2 {
   padding-right: 25%;
   line-height: 500%;
 }
+
 .lb {
   font-size: 48px;
   display: inline-block;
   margin: 0;
   padding-right: 2.5%;
+    display: inline-block;
 }
+
 .genNameHead {
   font-size: 48px;
 }
+
 h1.lb {
   border: solid 2px black;
+  border-radius: 1%;
   font-size: 56px;
+  letter-spacing: 6px;
+  padding: 10%;
 }
+
 .pageTitle {
+  width: 35%;
   display: inline-block;
   font-size: 32px;
-  width: 60%;
   text-align: left;
   padding: 0;
   margin: 0;
+  font-size: 150%;
 }
+
 .menu {
   width: 20%;
   display: inline-block;
   text-align: right;
 }
+
 img.menuButton {
   width: 30%;
   height: 30%;
   vertical-align: bottom;
 }
+
 div.navBar {
   width: 100%;
-  display: inline-block;
+  display: inline-flex;
   border-top: 0;
   margin-top: 0;
+  text-align: center;
+  float:rigjt;
 }
+div.navBar2{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+vertical-align: middle;
+}
+
 div.topmost {
   vertical-align: top;
+  padding-left: 2.5%;
+  margin: 0;
+  padding-top: 0;
 }
+
 div.menuitem {
   width: 25%;
   display: inline-block;
   font-size: 40px;
 }
+
 .menuitem a {
   text-decoration: none;
   color: black;
 }
+
 hr.menuLines {
   width: 90%;
   height: 2px;
   background-color: black;
   border: none;
 }
+
 hr.feat {
   width: 95%;
   height: 1px;
   background-color: black;
   border: none;
 }
+
 .footerSection {
   width: 25%;
   display: inline-block;
@@ -222,18 +274,22 @@ hr.feat {
   vertical-align: top;
   text-align: left;
 }
+
 .footerSection a {
   display: block;
   color: black;
   text-decoration: none;
 }
+
 a:hover {
   color: grey;
 }
+
 a.lb {
   text-decoration: none;
   color: black;
 }
+
 /* h1.lb:hover {
   background-color: black;
 } */
@@ -242,63 +298,84 @@ hr.footerLines {
   background-color: black;
   border: none;
 }
+
 .footer {
   margin: 5%;
 }
+
+div.singlePost{
+  align-self: center;
+  margin-left:20%;
+  margin-right:20%;
+
+}
 div.content {
   width: 70%;
+  padding-left: 2.5%;
   display: inline-block;
   vertical-align: top;
 }
+
 div.playlist {
   width: 25%;
   display: inline-block;
   border-left: solid 1px black;
   vertical-align: top;
 }
+
 h2.playlist {
   padding-left: 15%;
   margin: 0;
   padding-top: 0;
   text-align: left;
 }
+
 .playlist iframe {
   padding: 2.5%;
 }
+
 .post_image {
   width: 50%;
   display: inline-block;
 }
+
 .postContent {
   width: 75%;
   display: inline-block;
   font-size: 20px;
 }
+
 .postPreview {
   font-size: 16;
 }
+
 a.mainSection {
   font-style: normal;
   color: black;
   text-decoration: none;
 }
+
 a.mainSection:hover {
   color: grey;
 }
+
 em.subSection {
   font-style: normal;
   color: grey;
 }
+
 div.postFrame {
   display: inline-block;
   width: 20%;
   padding: 2.5%;
   vertical-align: top;
 }
+
 a.preview {
   text-decoration: none;
   color: black;
 }
+
 div.featureContent {
   padding: 2%;
 }
@@ -307,6 +384,7 @@ a.preview:hover {
   text-decoration: gray;
   color: grey;
 }
+
 div.feature {
   padding: 2.5%;
   display: inline-block;
@@ -317,6 +395,7 @@ div.featureTitle {
   display: inline-block;
   width: 70%;
 }
+
 div.featuredimage {
   width: 25%;
   display: inline-block;
@@ -326,90 +405,123 @@ div.featuredimage {
 div.posts {
   display: inline-block;
 }
+
 h1.featureTitle {
   padding: 0;
   border: 0;
 }
+
 h1.feature {
   margin: 0;
 }
+
 div.miniFeatureOne {
   width: 45%;
   display: inline-block;
   padding: 1%;
 }
+
 div.miniFeatureTwo {
   width: 30%;
   display: inline-block;
   padding: 2.5%;
 }
+
 h3.featureTitle {
   padding-left: 15%;
   text-align: left;
   color: #258309;
 }
-@media only screen and (max-width:1000px){
-  div.worknotes{
+
+@media only screen and (max-width:1000px) {
+  div.worknotes {
     width: 100%;
     font-size: 50%;
   }
-  div.worknotes h1{
+
+  div.worknotes h1 {
     font-size: 24px;
   }
-  h1.word{
+
+  h1.word {
     letter-spacing: 5px;
   }
+  div.navBar2{
+    width: 100%;
+  }
 }
+
 @media only screen and (max-width: 600px) {
   .homeNav {
     display: block;
+    width: 100%;
+  }
+  div.navBar2{
     width: 100%;
   }
   .laurence {
     font-size: 100%;
     text-align: center;
   }
+
   #right {
     text-align: center;
   }
+
   .homeNav h1 {
     font-size: 200%;
   }
-  .lb {
-    width: 90%;
+
+  div.lb {
+    width: 30%;
+    display: inline-block;
+
   }
+
   div.topmost {
     margin: 0;
   }
-  textarea{
+
+  textarea {
     width: 90%;
   }
+
   h1 {
     margin: 0;
     padding: 0;
   }
+  
   .pageTitle {
-    font-size: 100%;
+    font-size: 90%;
     padding: 0;
     margin: 0;
+    width: 45%;
+  }
+  .navBar2{
+    width: 100%;
   }
   div.postFrame {
     width: 45%;
   }
+
   .footerSection {
     width: 50%;
   }
+
   div.menuitem {
     width: 50%;
   }
+
   div.playlist {
     width: 95%;
     display: block;
   }
+
   div.content {
     width: 95%;
   }
 }
+
 .current {
   width: 40%;
   display: inline-block;
@@ -417,69 +529,86 @@ h3.featureTitle {
   padding: 2%;
   vertical-align: top;
 }
+
 .current h2 {
   text-align: center;
 }
+
 #left {
   border-right: black solid 1px;
 }
-div.worknotes{
+
+div.worknotes {
   margin: 0;
   padding: 0;
 }
-.worknotes h1{
+
+.worknotes h1 {
   margin: 0;
   padding: 0;
   font-size: 64px;
   font-family: masqualero-groove, sans-serif;
-font-stretch: narrower;
-font-weight: 400;
+  font-stretch: narrower;
+  font-weight: 400;
 
-font-style: normal;
+  font-style: normal;
 }
-.side{
-  
+
+.side {
+
   width: 30%;
   display: inline-block;
   border-right: 1px solid black;
   vertical-align: top;
 }
-.main{
+
+.main {
   width: 60%;
   display: inline-block;
   padding: 2.5%;
 }
-.letter{
+
+.letter {
   padding-right: 64px;
-letter-spacing: normal;
+  letter-spacing: normal;
 }
-.invisible{
+
+.invisible {
   opacity: 0%;
 }
-.word{
+
+.word {
   letter-spacing: 12px;
 }
+
 .kazimoja {
   width: 100%;
   border: 1.5px solid black;
 
 }
-.kazimoja hr{
+
+.kazimoja hr {
   border: none;
   height: 1.5px;
-  color: #333; /* old IE */
-  background-color: #333; /* Modern Browsers */
+  color: #333;
+  /* old IE */
+  background-color: #333;
+  /* Modern Browsers */
 }
-.kazimoja img{
+
+.kazimoja img {
   width: 87.5%;
 }
-br.split{
+
+br.split {
   padding-top: 10%;
 }
-.mainStuff{
+
+.mainStuff {
   padding-top: 3%;
 }
-.notfound{
+
+.notfound {
   line-height: 24px;
   vertical-align: middle;
   font-weight: 300;
