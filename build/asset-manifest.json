@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/laudebugs.me/static/css/main.82d8aa79.chunk.css",
-    "main.js": "/laudebugs.me/static/js/main.97060bdf.chunk.js",
+    "main.css": "/laudebugs.me/static/css/main.d83113f6.chunk.css",
+    "main.js": "/laudebugs.me/static/js/main.236c1452.chunk.js",
     "runtime-main.js": "/laudebugs.me/static/js/runtime-main.a4cbf8f6.js",
-    "static/js/2.19a601a3.chunk.js": "/laudebugs.me/static/js/2.19a601a3.chunk.js",
+    "static/js/2.62c49e95.chunk.js": "/laudebugs.me/static/js/2.62c49e95.chunk.js",
     "index.html": "/laudebugs.me/index.html",
-    "precache-manifest.836682ade44ba74709437fad08ed48c0.js": "/laudebugs.me/precache-manifest.836682ade44ba74709437fad08ed48c0.js",
+    "precache-manifest.e6afa25f618ad9e8a51bb07419b48f36.js": "/laudebugs.me/precache-manifest.e6afa25f618ad9e8a51bb07419b48f36.js",
     "service-worker.js": "/laudebugs.me/service-worker.js",
-    "static/js/2.19a601a3.chunk.js.LICENSE.txt": "/laudebugs.me/static/js/2.19a601a3.chunk.js.LICENSE.txt",
+    "static/js/2.62c49e95.chunk.js.LICENSE.txt": "/laudebugs.me/static/js/2.62c49e95.chunk.js.LICENSE.txt",
     "static/media/index.css": "/laudebugs.me/static/media/GlacialIndifference-Bold.f801e234.otf",
     "static/media/Posts.less": "/laudebugs.me/static/media/Posts.a696beac.less",
     "static/media/SinglePost.less": "/laudebugs.me/static/media/SinglePost.aceae8da.less",
@@ -15,8 +15,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4cbf8f6.js",
-    "static/js/2.19a601a3.chunk.js",
-    "static/css/main.82d8aa79.chunk.css",
-    "static/js/main.97060bdf.chunk.js"
+    "static/js/2.62c49e95.chunk.js",
+    "static/css/main.d83113f6.chunk.css",
+    "static/js/main.236c1452.chunk.js"
   ]
 }

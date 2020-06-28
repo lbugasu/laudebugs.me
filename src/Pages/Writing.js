@@ -1,6 +1,5 @@
 import React from "react";
 import WritingHeader from "../components/WritingHeader";
-import NavBar from "../components/NavBar";
 import WritingFooter from "../components/WritingFooter";
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
@@ -18,7 +17,8 @@ export default function Writing() {
     return (
       <>
         <WritingHeader />
-        <NavBar />
+        <hr className="menuLines" />
+
         <div className="content">
           <h3 className="featureTitle">Feature</h3>
 
@@ -39,7 +39,7 @@ export default function Writing() {
                     dangerouslySetInnerHTML={{
                       __html:
                         documentToHtmlString(feature.body).substring(0, 300) +
-                        " ... "
+                        " ... ",
                     }}
                   ></div>
                 </Link>

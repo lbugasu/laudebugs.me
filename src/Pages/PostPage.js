@@ -19,6 +19,8 @@ export default function PostPage() {
     return (
       <>
         <WritingHeader />
+      <div className="singlePost">
+
         <div className="post__intro">
           <h1 className="post__intro__title">{post.title}</h1>
           <small className="post__intro__date">{readableDate(post.date)}</small>
@@ -32,6 +34,8 @@ export default function PostPage() {
         </div>
         <div className="postContent" dangerouslySetInnerHTML={{ __html: documentToHtmlString(post.body) }}>
         </div>
+        </div>
+
         <WritingFooter />
       </>
     )

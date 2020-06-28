@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28eeaa9b4c5a87053f87ea3b465089cc",
+    "revision": "09d22f49d80630e49ecfed8f997df0f6",
     "url": "/laudebugs.me/index.html"
   },
   {
-    "revision": "aa5c5705f6a9b8d157da",
-    "url": "/laudebugs.me/static/css/main.82d8aa79.chunk.css"
+    "revision": "92372078d324ab23e6f6",
+    "url": "/laudebugs.me/static/css/main.d83113f6.chunk.css"
   },
   {
-    "revision": "61d862be02b8999c9351",
-    "url": "/laudebugs.me/static/js/2.19a601a3.chunk.js"
+    "revision": "8c012d8f143f518aaa18",
+    "url": "/laudebugs.me/static/js/2.62c49e95.chunk.js"
   },
   {
     "revision": "12bcb611199202335d77fd6a73a37f8e",
-    "url": "/laudebugs.me/static/js/2.19a601a3.chunk.js.LICENSE.txt"
+    "url": "/laudebugs.me/static/js/2.62c49e95.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa5c5705f6a9b8d157da",
-    "url": "/laudebugs.me/static/js/main.97060bdf.chunk.js"
+    "revision": "92372078d324ab23e6f6",
+    "url": "/laudebugs.me/static/js/main.236c1452.chunk.js"
   },
   {
     "revision": "b06afe2f90dadc0f2443",

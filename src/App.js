@@ -7,8 +7,8 @@ import Writing from "./Pages/Writing";
 import WritingGallery from "./Pages/WritingGallery";
 import WritingSectionPage from "./Pages/WritingSectionPage";
 import WritingSubjectPage from "./Pages/WritingSubjectPage";
-import UpcomingWork from "./Pages/UpcomingWork"
-import Write from "./Pages/Write"
+import UpcomingWork from "./Pages/UpcomingWork";
+import Write from "./Pages/Write";
 
 import "./App.css";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
@@ -18,7 +18,6 @@ class App extends Component {
   render() {
     return (
       <Router>
-
         <div className="App">
           <Switch>
             <Route path="/" component={HomePage} exact />
@@ -26,7 +25,6 @@ class App extends Component {
             <Route
               path="/writing-subjects/:subject"
               component={WritingSubjectPage}
-
             />
             <Route
               path="/writing-section/:section"
@@ -42,7 +40,6 @@ class App extends Component {
 
             <Route component={NotFoundPage} />
           </Switch>
-
         </div>
       </Router>
     );
