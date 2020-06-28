@@ -1,21 +1,21 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
-import { getTaggedPost } from '../contentful';
+import { getTaggedPost } from "../contentful";
 
 export default function useTaggedPost(tag) {
-  const promise = getTaggedPost(tag)
+  const promise = getTaggedPost(tag);
 
-  const [posts, setPost] = useState(null)
+  const [posts, setPost] = useState(null);
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
-    promise.then(result => {
+    promise.then((result) => {
       // console.log ()
-      setPost(result[0].fields)
-      setLoading(false)
-    })
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+      setPost(result[0].fields);
+      setLoading(false);
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tag]);
 
-  return [posts, isLoading]
+  return [posts, isLoading];
 }
