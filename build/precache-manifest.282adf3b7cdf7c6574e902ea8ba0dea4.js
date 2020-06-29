@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f1b3cbbc66f332908e5cc62b4184ba8",
+    "revision": "577b08997d3292485573dab7ad8be7ba",
     "url": "/laudebugs.me/index.html"
   },
   {
-    "revision": "923856e6e2c97c9ebb8a",
+    "revision": "74dc18529bdfafae522e",
     "url": "/laudebugs.me/static/css/main.d83113f6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/laudebugs.me/static/js/2.62c49e95.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "923856e6e2c97c9ebb8a",
-    "url": "/laudebugs.me/static/js/main.3b765083.chunk.js"
+    "revision": "74dc18529bdfafae522e",
+    "url": "/laudebugs.me/static/js/main.c10fab13.chunk.js"
   },
   {
     "revision": "b06afe2f90dadc0f2443",

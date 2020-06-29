@@ -10,7 +10,10 @@ export default function useTaggedPost(tag) {
 
   useEffect(() => {
     promise.then((result) => {
-      setPost(result);
+      const sortedPosts = result.sort(function (a, b) {
+        return new Date(b.fields.date) - new Date(a.fields.date);
+      });
+      setPost(sortedPosts);
       setLoading(false);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps

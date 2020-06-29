@@ -183,7 +183,7 @@ h2 {
   display: inline-block;
   margin: 0;
   padding-right: 2.5%;
-    display: inline-block;
+  display: inline-block;
 }
 
 .genNameHead {
@@ -226,13 +226,13 @@ div.navBar {
   border-top: 0;
   margin-top: 0;
   text-align: center;
-  float:rigjt;
+  float: rigjt;
 }
-div.navBar2{
+div.navBar2 {
   width: 50%;
   display: inline-block;
   text-align: center;
-vertical-align: middle;
+  vertical-align: text-bottom;
 }
 
 div.topmost {
@@ -303,12 +303,6 @@ hr.footerLines {
   margin: 5%;
 }
 
-div.singlePost{
-  align-self: center;
-  margin-left:20%;
-  margin-right:20%;
-
-}
 div.content {
   width: 70%;
   padding-left: 2.5%;
@@ -340,7 +334,7 @@ h2.playlist {
 }
 
 .postContent {
-  width: 75%;
+  width: 100%;
   display: inline-block;
   font-size: 20px;
 }
@@ -433,10 +427,19 @@ h3.featureTitle {
   color: #258309;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 1000px) {
   div.worknotes {
     width: 100%;
     font-size: 50%;
+  }
+  div.pageTitle {
+    width: 65%;
+    text-align: center;
+  }
+
+  div.lb {
+    width: 30%;
+    display: inline-block;
   }
 
   div.worknotes h1 {
@@ -446,7 +449,7 @@ h3.featureTitle {
   h1.word {
     letter-spacing: 5px;
   }
-  div.navBar2{
+  div.navBar2 {
     width: 100%;
   }
 }
@@ -456,7 +459,7 @@ h3.featureTitle {
     display: block;
     width: 100%;
   }
-  div.navBar2{
+  div.navBar2 {
     width: 100%;
   }
   .laurence {
@@ -472,32 +475,11 @@ h3.featureTitle {
     font-size: 200%;
   }
 
-  div.lb {
-    width: 30%;
-    display: inline-block;
-
-  }
-
-  div.topmost {
-    margin: 0;
-  }
-
   textarea {
     width: 90%;
   }
 
-  h1 {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .pageTitle {
-    font-size: 90%;
-    padding: 0;
-    margin: 0;
-    width: 45%;
-  }
-  .navBar2{
+  .navBar2 {
     width: 100%;
   }
   div.postFrame {
@@ -555,7 +537,6 @@ div.worknotes {
 }
 
 .side {
-
   width: 30%;
   display: inline-block;
   border-right: 1px solid black;
@@ -584,7 +565,6 @@ div.worknotes {
 .kazimoja {
   width: 100%;
   border: 1.5px solid black;
-
 }
 
 .kazimoja hr {
@@ -612,4 +592,14 @@ br.split {
   line-height: 24px;
   vertical-align: middle;
   font-weight: 300;
+}
+div.singlePost {
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5%;
+}
+div.postBody {
+  width: 90%;
+  align-self: auto;
 }
