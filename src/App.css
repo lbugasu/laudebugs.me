@@ -326,6 +326,7 @@ h2.playlist {
 
 .playlist iframe {
   padding: 2.5%;
+  border: 1px solid green;
 }
 
 .post_image {
@@ -435,13 +436,18 @@ h3.featureTitle {
   div.pageTitle {
     width: 65%;
     text-align: center;
+    font-size: 100%;
   }
 
   div.lb {
     width: 30%;
     display: inline-block;
   }
-
+  h1.lb {
+    font-size: 100%;
+    margin-top: 10%;
+    padding-top: 5%;
+  }
   div.worknotes h1 {
     font-size: 24px;
   }
