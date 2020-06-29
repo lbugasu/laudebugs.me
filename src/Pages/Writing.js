@@ -64,7 +64,6 @@ export default function Writing() {
             allowFullScreen
             title="We are George Floyd"
             width="100%"
-            height="100%"
           ></iframe>
           <p>
             <a href="https://vimeo.com/425396315">WE ARE GEORGE FLOYD</a> from{" "}
