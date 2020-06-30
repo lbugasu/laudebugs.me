@@ -198,7 +198,6 @@ div.years {
 }
 
 div.year:hover {
-  text-decoration: line-through;
   color: gray;
 }
 h2 {
