@@ -5,6 +5,8 @@ function main() {
   for (let i = 0; i < evts.length; i++) {
     evts[i].addEventListener("mouseover", function (evt) {
       let year = evt.target.textContent;
+      let d = evt.target;
+      console.log(d);
       switch (year) {
         case "2020":
           image.src =

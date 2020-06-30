@@ -51,7 +51,18 @@
   text-align: left;
   font-weight: 200;
 }
-
+.experimentsMenu {
+  width: 30%;
+  font-size: 28px;
+  display: inline-block;
+  text-align: right;
+}
+.experimentsMenu a {
+  display: inline-block;
+  padding: 5%;
+  text-decoration: none;
+  color: black;
+}
 .genNav {
   width: 60%;
   font-size: 32px;
@@ -109,7 +120,21 @@ button#sendButton {
   font-style: normal;
   border-radius: 5px;
 }
+.experimentsHeader {
+  width: 40%;
+  display: inline-block;
+  font-size: x-large;
 
+  text-align: center;
+}
+.experimentsHeader h1 {
+  width: 70%;
+  display: inline-block;
+}
+.experimentsHeader img {
+  width: 15%;
+  vertical-align: text-bottom;
+}
 div.send {
   text-align: center;
   display: inline-block;
@@ -172,9 +197,13 @@ div.years {
   text-align: right;
 }
 
+div.year:hover {
+  text-decoration: line-through;
+  color: gray;
+}
 h2 {
   text-align: right;
-  padding-right: 25%;
+  padding-right: 10%;
   line-height: 500%;
 }
 
@@ -189,7 +218,10 @@ h2 {
 .genNameHead {
   font-size: 48px;
 }
-
+h1.experimentz {
+  font-size: 100%;
+  font-weight: 300;
+}
 h1.lb {
   border: solid 2px black;
   border-radius: 1%;
@@ -240,6 +272,10 @@ div.topmost {
   padding-left: 2.5%;
   margin: 0;
   padding-top: 0;
+}
+div.lau {
+  width: 25%;
+  display: inline-block;
 }
 
 div.menuitem {
@@ -432,6 +468,38 @@ h3.featureTitle {
     width: 100%;
     font-size: 50%;
   }
+  div.experimentsMenu {
+    width: 100%;
+    text-align: center;
+  }
+  div.experimentsHeader {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  h1.experimentz {
+    font-size: 75%;
+  }
+  .experimentsHeader h1 {
+    width: 60%;
+    line-height: 0;
+    font-size: 150%;
+  }
+  .experimentsHeader img {
+    width: 10%;
+  }
+  div.lau {
+    width: 100%;
+    text-align: center;
+    font-size: 50%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+  }
+  .lau h1.lb {
+    font-size: 100%;
+  }
   div.pageTitle {
     width: 65%;
     text-align: center;
@@ -442,6 +510,7 @@ h3.featureTitle {
     width: 30%;
     display: inline-block;
   }
+
   h1.lb {
     font-size: 100%;
     margin-top: 10%;
@@ -463,6 +532,10 @@ h3.featureTitle {
   .homeNav {
     display: block;
     width: 100%;
+  }
+  div.element {
+    width: 10%;
+    padding: 10%;
   }
   div.navBar2 {
     width: 100%;
@@ -528,6 +601,7 @@ h3.featureTitle {
 div.worknotes {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .worknotes h1 {
@@ -544,7 +618,7 @@ div.worknotes {
 .side {
   width: 30%;
   display: inline-block;
-  border-right: 1px solid black;
+
   vertical-align: top;
 }
 
@@ -552,6 +626,7 @@ div.worknotes {
   width: 60%;
   display: inline-block;
   padding: 2.5%;
+  border-left: 1px solid black;
 }
 
 .letter {
@@ -568,8 +643,10 @@ div.worknotes {
 }
 
 .kazimoja {
-  width: 100%;
+  width: 80%;
   border: 1.5px solid black;
+  text-align: center;
+  margin-left: 10%;
 }
 
 .kazimoja hr {
@@ -580,9 +657,14 @@ div.worknotes {
   background-color: #333;
   /* Modern Browsers */
 }
+.kazimoja p {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 .kazimoja img {
-  width: 87.5%;
+  width: 80%;
 }
 
 br.split {
@@ -607,4 +689,14 @@ div.singlePost {
 div.postBody {
   width: 90%;
   align-self: auto;
+}
+
+.element {
+  width: 3.5%;
+  display: inline-block;
+  padding: 3%;
+}
+div.selected {
+  text-decoration: line-through;
+  color: gray;
 }
