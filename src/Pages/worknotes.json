@@ -1,22 +1,30 @@
 [
-    {"title":"tamaduni",
-    "description":"a website to curate podcasts based on a specific topic.",
-    "img":"https://lbugasu.github.io/css/images/on%20this%20topic.gif",
-    "tech":["javascript", "html","mongoDB","node.js", "express","mongoose"],
-    "link":"http://linserv1.cims.nyu.edu:20908/"},
-    {"title":"Viables",
-    "description":"a mobile app to track carton box reuse on campuses",
-    "img":"https://lbugasu.github.io/css/images/viables.png",
-    "tech":["flutter","dart","javascript","html"],
-    "link":"https://devpost.com/software/viables"},
-    {"title":"Sentiment Analysis on Rotten Tomatoes movie reviews",
-    "description":"Link to Repo implimented Naive Bayes algorithm to perform sentiment on movie reviews",
-    "img":"https://lbugasu.github.io/css/images/sentiment-analysis.png",
-    "tech":[ "Python", "Natural Language Translation Kit", "Machine Learning"],
-    "link":"https://github.com/lbugasu/sentiment-analysis-on-movie-reviews"},
-    {"title":"Tamaduni",
-    "description":"A culture progressive platform for curated content",
-    "img":"https://lbugasu.github.io/css/images/tamaduni.png",
-    "tech":["javascript", "html", "node.js","express"],
-    "link":"http://tamaduni.org/"}
+  {
+    "title": "tamaduni",
+    "description": "a website to curate podcasts based on a specific topic.",
+    "img": "https://laudebugs.me/css/images/onthistopic.png",
+    "tech": ["javascript", "html", "mongoDB", "node.js", "express", "mongoose"],
+    "link": "http://linserv1.cims.nyu.edu:20908/"
+  },
+  {
+    "title": "Viables",
+    "description": "a mobile app to track carton box reuse on campuses",
+    "img": "https://lbugasu.github.io/css/images/viables.png",
+    "tech": ["flutter", "dart", "javascript", "html"],
+    "link": "https://devpost.com/software/viables"
+  },
+  {
+    "title": "Sentiment Analysis on Rotten Tomatoes movie reviews",
+    "description": "Link to Repo implimented Naive Bayes algorithm to perform sentiment on movie reviews",
+    "img": "https://lbugasu.github.io/css/images/sentiment-analysis.png",
+    "tech": ["Python", "Natural Language Translation Kit", "Machine Learning"],
+    "link": "https://github.com/lbugasu/sentiment-analysis-on-movie-reviews"
+  },
+  {
+    "title": "Tamaduni",
+    "description": "A culture progressive platform for curated content",
+    "img": "https://lbugasu.github.io/css/images/tamaduni.png",
+    "tech": ["javascript", "html", "node.js", "express"],
+    "link": "http://tamaduni.org/"
+  }
 ]

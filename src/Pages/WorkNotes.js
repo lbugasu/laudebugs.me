@@ -13,7 +13,13 @@ export default function WorkNotes() {
           <hr></hr>
           <p>{note.description}</p>
           <img src={note.img} alt={note.description}></img>
-          <p>{note.tech.map((t) => " . " + t + " ")}...</p>
+          <p>
+            Stack:{" "}
+            {note.tech
+              .slice(0, note.tech.length - 1)
+              .map((t) => " " + t + " | ")}{" "}
+            {note.tech[note.tech.length - 1]}
+          </p>
           <a
             target="_blank"
             key={note.link}

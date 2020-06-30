@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // eslint-disable-next-line
-import MenuButton from "../css/images/menubutton.png";
 const WritingHeader = ({ section }) => (
   <>
     <div className="topmost">
@@ -19,19 +18,30 @@ const WritingHeader = ({ section }) => (
         </h1>
       </div>
       <div className="navBar2">
-      <div className="menuitem">
-        <Link key={"/writing-section/notes"} to={"/writing-section/notes"}>notes</Link>
+        <div className="menuitem">
+          <Link key={"/writing-section/notes"} to={"/writing-section/notes"}>
+            notes
+          </Link>
+        </div>
+        <div className="menuitem">
+          <Link
+            key={"/writing-section/letters"}
+            to={"/writing-section/letters"}
+          >
+            letters
+          </Link>
+        </div>
+        <div className="menuitem">
+          <Link key={"/writing-section/poetry"} to={"/writing-section/poetry"}>
+            poetry
+          </Link>
+        </div>
+        <div className="menuitem">
+          <Link key={"/writing-section/random"} to={"/writing-section/random"}>
+            random
+          </Link>
+        </div>
       </div>
-      <div className="menuitem">
-        <Link key={"/writing-section/letters"} to={"/writing-section/letters"}>letters</Link>
-      </div>
-      <div className="menuitem">
-        <Link key={"/writing-section/poetry"} to={"/writing-section/poetry"}>poetry</Link>
-      </div>
-      <div className="menuitem">
-        <Link key={"/writing-section/random"} to={"/writing-section/random"}>random</Link>
-      </div>
-    </div>
     </div>
   </>
 );

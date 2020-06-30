@@ -1,7 +1,8 @@
 import React from "react";
+import ExperimentsHeader from "../components/ExperimentsHeader";
 const Experiments = () => (
   <>
-    <h1>Experiments</h1>
+    <ExperimentsHeader />
   </>
 );
 

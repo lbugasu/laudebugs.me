@@ -14,19 +14,19 @@ export default function SinglePost() {
 
     return (
       <>
-        <div className="post__intro">
+        <div className="postIntro">
           <h2 className="post__intro__title">{post.title}</h2>
           <small className="post__intro__date">{readableDate(post.date)}</small>
           <p className="post__intro__desc">{post.description}</p>
 
           <img
-            className="post__intro__img"
+            className="postImage"
             src={post.featuredImage.fields.file.url}
             alt={post.title}
           />
         </div>
 
-        <div className="post__body">
+        <div className="postBody">
           <MD source={post.body} />
         </div>
       </>

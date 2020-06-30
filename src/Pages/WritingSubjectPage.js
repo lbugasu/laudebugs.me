@@ -2,20 +2,17 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
-import {useTaggedPosts} from "../custom-hooks"
+import { useTaggedPosts } from "../custom-hooks";
 import { readableDate } from "../components/helpers";
 import "../components/Posts.less";
 
 import WritingHeader from "../components/WritingHeader";
 import WritingFooter from "../components/WritingFooter";
- 
-export default function WritingSubjectPage() {
 
+export default function WritingSubjectPage() {
   const { subject } = useParams();
   const [posts, isLoading] = useTaggedPosts(subject);
-  console.log(subject)
   const renderPage = () => {
-    
     if (isLoading) return <p>Loading...</p>;
 
     return posts.map((post) => (
@@ -39,7 +36,7 @@ export default function WritingSubjectPage() {
             dangerouslySetInnerHTML={{
               __html:
                 documentToHtmlString(post.fields.body).substring(0, 200) +
-                "   ... ",
+                "   ...   ",
             }}
           ></div>
         </Link>
@@ -47,9 +44,10 @@ export default function WritingSubjectPage() {
     ));
   };
   return (
-  <>
-    <WritingHeader section={" on " + subject} />
-    {renderPage()}
-    <WritingFooter />
-  </>);
+    <>
+      <WritingHeader section={" on " + subject} />
+      {renderPage()}
+      <WritingFooter />
+    </>
+  );
 }

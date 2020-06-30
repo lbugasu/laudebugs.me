@@ -1,14 +1,12 @@
 main();
-console.log("here");
 function main() {
   let image = document.getElementsByClassName("frontMatter")[0];
   let evts = document.getElementsByClassName("year");
   for (let i = 0; i < evts.length; i++) {
-    console.log("here");
-
     evts[i].addEventListener("mouseover", function (evt) {
       let year = evt.target.textContent;
-      console.log(evt.target.textContent);
+      let d = evt.target;
+      console.log(d);
       switch (year) {
         case "2020":
           image.src =
