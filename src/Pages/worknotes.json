@@ -1,8 +1,8 @@
 [
   {
-    "title": "tamaduni",
+    "title": "On this topic",
     "description": "a website to curate podcasts based on a specific topic.",
-    "img": "https://laudebugs.me/css/images/onthistopic.png",
+    "img": "https://raw.githubusercontent.com/lbugasu/laudebugs.me/master/src/css/images/onthistopic.png",
     "tech": ["javascript", "html", "mongoDB", "node.js", "express", "mongoose"],
     "link": "http://linserv1.cims.nyu.edu:20908/"
   },
