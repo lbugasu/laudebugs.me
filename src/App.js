@@ -9,7 +9,7 @@ import WritingSectionPage from "./Pages/WritingSectionPage";
 import WritingSubjectPage from "./Pages/WritingSubjectPage";
 import UpcomingWork from "./Pages/UpcomingWork";
 import Write from "./Pages/Write";
-
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import "./App.css";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NotFoundPage from "./Pages/NotFoundPage";
@@ -37,6 +37,7 @@ class App extends Component {
             <Route path="/worknotes" component={WorkNotes} />
             <Route path="/writing-currently" component={UpcomingWork} />
             <Route path="/write-to-me" component={Write} />
+            <Route path="/privacy-policy" component={PrivacyPolicy} />
 
             <Route component={NotFoundPage} />
           </Switch>
