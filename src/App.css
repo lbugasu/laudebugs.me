@@ -189,7 +189,18 @@ div.outerBox {
   text-align: left;
   vertical-align: top;
 }
-
+div.privacy-policy {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.privacy-policy h2 {
+  text-align: left;
+}
+.privacy-policy h1 {
+  text-decoration: underline;
+}
 div.years {
   width: 15%;
   padding-right: 5%;
