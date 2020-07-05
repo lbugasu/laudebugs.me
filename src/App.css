@@ -478,6 +478,7 @@ h3.featureTitle {
     width: 100%;
     font-size: 50%;
   }
+
   div.experimentsMenu {
     width: 100%;
     text-align: center;
@@ -554,7 +555,9 @@ h3.featureTitle {
     font-size: 100%;
     text-align: center;
   }
-
+  .genNav {
+    width: 100%;
+  }
   #right {
     text-align: center;
   }
@@ -704,9 +707,12 @@ div.postBody {
 .element {
   width: 3.5%;
   display: inline-block;
-  padding: 3%;
+  padding: 4%;
 }
 div.selected {
   text-decoration: line-through;
   color: gray;
+}
+div.writeBody {
+  text-align: center;
 }

@@ -4,9 +4,6 @@ import typewriter from "../css/images/typewriter-large.jpg";
 const FrontImage = () => (
   <>
     <div className="outerBox">
-      {/* <div className="frontImage">
-        <img src={freshmanYear} alt="freshman year" />
-      </div> */}
       <div className="frontImage">
         <img className="frontMatter" src={typewriter} alt="freshman year" />
       </div>

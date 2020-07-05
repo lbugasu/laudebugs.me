@@ -87,8 +87,10 @@ export default function Homepage(/*{match}*/) {
   };
   return (
     <>
-      <GeneralHeader />
-      {renderPage()}
+      <div className="writeBody">
+        <GeneralHeader />
+        {renderPage()}
+      </div>
     </>
   );
 }
