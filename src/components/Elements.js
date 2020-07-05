@@ -8,7 +8,7 @@ const FrontImage = () => (
     <div className="elements">
       <div className="element">
         <a
-          href="https://drive.google.com/file/d/1x_blPPwI99bnaRQtLard7jP9uWL1CPQt/view?usp=sharing"
+          href="https://drive.google.com/file/d/1FpRSiNI_CTtUXb4jn3tfpth5mH3J7xlF/view?usp=sharing"
           target="__blank"
         >
           <img src={resume} alt="resume"></img>
