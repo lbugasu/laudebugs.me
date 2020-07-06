@@ -716,3 +716,14 @@ div.selected {
 div.writeBody {
   text-align: center;
 }
+div.ecstasy {
+  text-align: justify;
+}
+iframe.ecstasy {
+  width: 100%;
+  border: 0;
+}
+.ecstasy p {
+  text-align: center;
+  font-size: large;
+}

@@ -1,10 +1,10 @@
 {
-  "name": "laudebugs.me-frontend",
+  "name": "laudebugs.me",
   "version": "0.1.0",
   "engines": {
     "node": "12.x"
   },
-  "homepage": "https://laudebugs.me",
+  "homepage": "https://lbugasu.github.io/laudebugs.me",
   "private": true,
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^14.1.1",

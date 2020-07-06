@@ -1,9 +1,45 @@
 import React from "react";
-import ExperimentsHeader from "../components/ExperimentsHeader";
-const Experiments = () => (
-  <>
-    <ExperimentsHeader />
-  </>
-);
+import { Link } from "react-router-dom";
+import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
+import { readableDate } from "../components/helpers";
 
-export default Experiments;
+import ExperimentsHeader from "../components/ExperimentsHeader";
+import { useProjects } from "../custom-hooks/";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+
+export default function Experiments() {
+  const [projects, isLoading] = useProjects();
+  console.log(projects);
+  const renderProjects = () => {
+    if (isLoading) return <p>Loading...</p>;
+
+    return projects.map((project) => (
+      <div>
+        <small>{readableDate(project.fields.date)}</small>
+
+        <h3>{project.fields.title}</h3>
+
+        <div>{documentToReactComponents(project.fields.body)}</div>
+      </div>
+    ));
+  };
+  return (
+    <>
+      <ExperimentsHeader />
+      <div className="ecstasy">
+        <p>an aminated dream...</p>
+        <p></p>
+        <iframe
+          className="ecstasy"
+          src="https://player.vimeo.com/video/435519745"
+          width="640"
+          height="480"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+      {renderProjects()}
+    </>
+  );
+}
