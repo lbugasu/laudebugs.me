@@ -727,3 +727,32 @@ iframe.ecstasy {
   text-align: center;
   font-size: large;
 }
+div.project{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 1px solid black;
+  border-radius: 1em 4em 1em 4em / 3em 1em 2em 3em;
+-moz-border-radius: 1em 2em 1em 2em
+		 / 2em 1em 2em 1em;
+-webkit-border-radius: 1em 2em 1em 2em
+     / 2em 1em 2em 1em;
+  align-self: center;
+}
+.project img{
+  width: 70%;
+}
+
+.project small{
+  display: block;
+}
+div.projectDescription{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+}
+div.projects{
+  align-items: center;
+  text-align: center;
+}

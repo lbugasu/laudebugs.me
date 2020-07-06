@@ -25,3 +25,5 @@ yarn-error.log*
 node_modules
 .env
 db.js
+package.json
+package-lock.json
