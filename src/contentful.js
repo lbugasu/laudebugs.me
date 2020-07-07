@@ -18,6 +18,14 @@ const getSinglePost = (slug) =>
     })
     .then((response) => response.items);
 
+  const getSingleExperiment = (slug) =>
+  client
+    .getEntries({
+      "fields.slug": slug,
+      content_type: "project",
+    })
+    .then((response) => response.items);
+
 const getTaggedPost = (tag) =>
   client
     .getEntries({
@@ -48,4 +56,5 @@ export {
   getTaggedPosts,
   getSectionedPosts,
   getProjects,
+  getSingleExperiment,
 };

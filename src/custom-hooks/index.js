@@ -4,6 +4,7 @@ import useTaggedPost from "../custom-hooks/useTaggedPost";
 import useTaggedPosts from "../custom-hooks/useTaggedPosts";
 import useSectionedPosts from "../custom-hooks/useSectionedPosts";
 import useProjects from "../custom-hooks/useProjects";
+import useSingleExperiment from "../custom-hooks/useSingleExperiment"
 export {
   usePosts,
   useSinglePost,
@@ -11,4 +12,5 @@ export {
   useTaggedPosts,
   useSectionedPosts,
   useProjects,
+  useSingleExperiment,
 };

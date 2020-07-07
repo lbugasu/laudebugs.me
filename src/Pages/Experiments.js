@@ -9,17 +9,27 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
 export default function Experiments() {
   const [projects, isLoading] = useProjects();
+  console.log(projects);
   const renderProjects = () => {
     if (isLoading) return <p>Loading...</p>;
     return projects.map((project) => (
+      
       <div className="project">
         <h3>{project.fields.title}</h3>
         <img src={project.fields.featureImage.fields.file.url} alt={project.fields.featureImage.title}></img>
         <small>{readableDate(project.fields.date)}</small>
         <div className="projectDescription">{project.fields.description}</div>
+        <Link
+      key={"/experiments/" + project.fields.slug}
+          to={"/experiments/" + project.fields.slug}
+          className="preview"
+      >
+        <p>read more...</p>
+        </Link>
         {/* <div>{documentToReactComponents(project.fields.body)}</div> */}
 
       </div>
+      
     ));
   };
   return (

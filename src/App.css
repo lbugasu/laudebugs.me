@@ -699,6 +699,21 @@ div.singlePost {
   margin-right: 10%;
   margin-top: 2.5%;
 }
+div.experimentPost{
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+div.expBody{
+  width: 100%;
+  text-align: left;
+}
+.expBody h2{
+  text-align: left;
+  border: 0;
+  padding-top: 2%;
+  line-height: 12px;
+}
 div.postBody {
   width: 90%;
   align-self: auto;
@@ -729,8 +744,7 @@ iframe.ecstasy {
 }
 div.project{
   width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin:10%;
   border: 1px solid black;
   border-radius: 1em 4em 1em 4em / 3em 1em 2em 3em;
 -moz-border-radius: 1em 2em 1em 2em
