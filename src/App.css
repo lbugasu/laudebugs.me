@@ -13,6 +13,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background: black;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  background: #f8f3e3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 2.5px;
+  background: grey;
+}
 
 .App-header {
   background-color: #282c34;
@@ -417,7 +434,8 @@ a.preview {
 }
 
 div.featureContent {
-  padding: 2%;
+  display: inline-block;
+  width: 70%;
 }
 
 a.preview:hover {
@@ -426,22 +444,24 @@ a.preview:hover {
 }
 
 div.feature {
-  padding: 2.5%;
+  padding-left: 2.5%;
+  padding-bottom: 2.5%;
   display: inline-block;
   vertical-align: top;
 }
 
-div.featureTitle {
-  display: inline-block;
-  width: 70%;
+.feature small {
+  display: block;
+  text-decoration: underline;
 }
-
 div.featuredimage {
   width: 25%;
   display: inline-block;
   vertical-align: top;
 }
-
+.featuredimage img {
+  width: 100%;
+}
 div.posts {
   display: inline-block;
 }
@@ -699,16 +719,16 @@ div.singlePost {
   margin-right: 10%;
   margin-top: 2.5%;
 }
-div.experimentPost{
+div.experimentPost {
   text-align: left;
   margin-left: 10%;
   margin-right: 10%;
 }
-div.expBody{
+div.expBody {
   width: 100%;
   text-align: left;
 }
-.expBody h2{
+.expBody h2 {
   text-align: left;
   border: 0;
   padding-top: 2%;
@@ -718,7 +738,9 @@ div.postBody {
   width: 90%;
   align-self: auto;
 }
-
+div.elements {
+  text-align: center;
+}
 .element {
   width: 3.5%;
   display: inline-block;
@@ -742,31 +764,24 @@ iframe.ecstasy {
   text-align: center;
   font-size: large;
 }
-div.project{
+div.project {
   width: 80%;
-  margin:10%;
-  border: 1px solid black;
-  border-radius: 1em 4em 1em 4em / 3em 1em 2em 3em;
--moz-border-radius: 1em 2em 1em 2em
-		 / 2em 1em 2em 1em;
--webkit-border-radius: 1em 2em 1em 2em
-     / 2em 1em 2em 1em;
-  align-self: center;
+  margin: 10%;
 }
-.project img{
+.project img {
   width: 70%;
 }
 
-.project small{
+.project small {
   display: block;
 }
-div.projectDescription{
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+div.projectDescription {
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: justify;
 }
-div.projects{
+div.projects {
   align-items: center;
   text-align: center;
 }
