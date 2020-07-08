@@ -31,9 +31,7 @@ export default function Writing() {
                   className="preview"
                 >
                   <h1 className="featureTitle">{feature.title}</h1>
-                  <small className="post__intro__date">
-                    {readableDate(feature.date)}
-                  </small>
+                  <small>{readableDate(feature.date)}</small>
                   <div
                     className="featureContent"
                     dangerouslySetInnerHTML={{
@@ -42,16 +40,16 @@ export default function Writing() {
                         " ... ",
                     }}
                   ></div>
+                  <div className="featuredimage">
+                    <img
+                      src={feature.feature_image.fields.file.url}
+                      alt={feature.title}
+                    />
+                  </div>
                 </Link>
               </div>
-              <div className="featuredimage">
-                <img
-                  src={feature.feature_image.fields.file.url}
-                  alt={feature.title}
-                />
-              </div>
-              <hr className="feat"></hr>
             </div>
+            <hr className="feat"></hr>
             <FeaturedContent />
           </div>
         </div>
