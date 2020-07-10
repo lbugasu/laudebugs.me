@@ -1,22 +1,13 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#laudebugsme)
-
-# ➤ Laudebugs.me
+# Laudebugs.me
 
 I built this site with React: bootstrapped with [Create React App](https://github.com/facebook/create-react-app). and used [Contentful](https://www.contentful.com/). to deliver my blog posts to the site
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#referenced-articles-and-posts)
-
-## ➤ Referenced articles and posts
+## Referenced articles and posts
 
 1. [Building a Blog with React and Contentful](https://hackernoon.com/building-a-blog-with-react-and-contentful-fd538f68f6fb)
 2. [Using a headless CMS with React](https://blog.logrocket.com/using-a-headless-cms-with-react/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#project-scope)
-
-## ➤ Project Scope
+## Project Scope
 
 As a personal website, I wanted to make use of React to build the website and the pages
 
@@ -37,63 +28,39 @@ For all my posts, I have a single page that displays all the posts
 
 ![writing-gallery](wireframes/writing-gallery-page.png)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#running-the-app)
-
-## ➤ Running the app
+## Running the app
 
 1. Using React Build
 
 ```bash
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#install-dependencies)
-
-# ➤ install dependencies
+# install dependencies
 npm i
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#build-with-react)
-
-# ➤ build with react
+# build with react
 npm run build
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#serve)
-
-# ➤ serve
+# serve
 npm serve -s
 ```
 
 2. Run with local server
 
 ```bash
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#from-root-folder-install-dependencies)
-
-# ➤ from root folder install dependencies
+# from root folder install dependencies
 npm i
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#run-app---served-on-localhost8080)
-
-# ➤ run app - served on localhost:8080
+# run app - served on localhost:8080
 node server.js
 ```
 
 3. Running in development mode
 
 ```bash
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#edit-start-script-file-in-packagejson-file)
-
-# ➤ edit start script file in package.json file
+# edit start script file in package.json file
 
 "start": "react-scripts start",
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#start-development-server)
-
-# ➤ start development server
+# start development server
 
 npm start
 ```
@@ -102,10 +69,7 @@ npm start
 
 - Cursor Vector infographic created by [Freepik](https://www.freepik.com/free-photos-vectors/infographic)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#future-work)
-
-## ➤ Future work
+## Future work
 
 1. - [ ] Adding Experiments page
 2. - [ ] Connect Form to MySQL database
