@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/laudebugs.me/static/css/main.c04abf66.chunk.css",
-    "main.js": "/laudebugs.me/static/js/main.7a258983.chunk.js",
+    "main.css": "/laudebugs.me/static/css/main.60d64ea8.chunk.css",
+    "main.js": "/laudebugs.me/static/js/main.d060d24d.chunk.js",
     "runtime-main.js": "/laudebugs.me/static/js/runtime-main.23d15698.js",
     "static/js/2.d4fd9669.chunk.js": "/laudebugs.me/static/js/2.d4fd9669.chunk.js",
     "index.html": "/laudebugs.me/index.html",
-    "precache-manifest.b0767b8fd17f606c3b31eb813b1f8ca0.js": "/laudebugs.me/precache-manifest.b0767b8fd17f606c3b31eb813b1f8ca0.js",
+    "precache-manifest.62f8fae17a85503d4d3311b5cb2d7c91.js": "/laudebugs.me/precache-manifest.62f8fae17a85503d4d3311b5cb2d7c91.js",
     "service-worker.js": "/laudebugs.me/service-worker.js",
     "static/js/2.d4fd9669.chunk.js.LICENSE.txt": "/laudebugs.me/static/js/2.d4fd9669.chunk.js.LICENSE.txt",
     "static/media/index.css": "/laudebugs.me/static/media/GlacialIndifference-Bold.f801e234.otf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.23d15698.js",
     "static/js/2.d4fd9669.chunk.js",
-    "static/css/main.c04abf66.chunk.css",
-    "static/js/main.7a258983.chunk.js"
+    "static/css/main.60d64ea8.chunk.css",
+    "static/js/main.d060d24d.chunk.js"
   ]
 }

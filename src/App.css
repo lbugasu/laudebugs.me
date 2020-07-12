@@ -436,6 +436,7 @@ a.preview {
 div.featureContent {
   display: inline-block;
   width: 70%;
+  margin-left: 2.5%;
 }
 
 a.preview:hover {
@@ -458,6 +459,10 @@ div.featuredimage {
   width: 25%;
   display: inline-block;
   vertical-align: top;
+  box-shadow: 5px 10px grey;
+}
+img.featuredImage {
+  width: 100%;
 }
 .featuredimage img {
   width: 100%;
@@ -479,8 +484,14 @@ div.miniFeatureOne {
   width: 45%;
   display: inline-block;
   padding: 1%;
+  vertical-align: top;
 }
-
+.miniFeatureOne img {
+  width: 50%;
+}
+.miniFeatureOne small {
+  display: block;
+}
 div.miniFeatureTwo {
   width: 30%;
   display: inline-block;
@@ -498,7 +509,9 @@ h3.featureTitle {
     width: 100%;
     font-size: 50%;
   }
-
+  div.miniFeatureOne img {
+    width: 100%;
+  }
   div.experimentsMenu {
     width: 100%;
     text-align: center;
@@ -557,6 +570,10 @@ h3.featureTitle {
   div.navBar2 {
     width: 100%;
   }
+  div.featuredimage {
+    display: block;
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -564,6 +581,7 @@ h3.featureTitle {
     display: block;
     width: 100%;
   }
+
   div.element {
     width: 10%;
     padding: 10%;
@@ -741,6 +759,14 @@ div.postBody {
 div.elements {
   text-align: center;
 }
+
+div.expMenu {
+  width: 19%;
+  display: inline-block;
+  border-right: dotted 1px black;
+  height: 80vh;
+  vertical-align: top;
+}
 .element {
   width: 3.5%;
   display: inline-block;
@@ -755,6 +781,12 @@ div.writeBody {
 }
 div.ecstasy {
   text-align: justify;
+  width: 40%;
+  margin: 2.5%;
+  display: inline-block;
+  border: 1px solid grey;
+  box-shadow: 5px 10px grey;
+  padding: 1%;
 }
 iframe.ecstasy {
   width: 100%;
@@ -764,9 +796,15 @@ iframe.ecstasy {
   text-align: center;
   font-size: large;
 }
+
 div.project {
-  width: 80%;
-  margin: 10%;
+  width: 40%;
+  margin: 2.5%;
+  display: inline-block;
+  border: 1px solid grey;
+  box-shadow: 5px 10px grey;
+  padding: 2%;
+  vertical-align: top;
 }
 .project img {
   width: 70%;
@@ -776,12 +814,5 @@ div.project {
   display: block;
 }
 div.projectDescription {
-  width: 70%;
-  padding-left: 15%;
-  padding-right: 15%;
   text-align: justify;
-}
-div.projects {
-  align-items: center;
-  text-align: center;
 }

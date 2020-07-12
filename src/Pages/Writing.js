@@ -32,20 +32,20 @@ export default function Writing() {
                 >
                   <h1 className="featureTitle">{feature.title}</h1>
                   <small>{readableDate(feature.date)}</small>
-                  <div
-                    className="featureContent"
-                    dangerouslySetInnerHTML={{
-                      __html:
-                        documentToHtmlString(feature.body).substring(0, 300) +
-                        " ... ",
-                    }}
-                  ></div>
                   <div className="featuredimage">
                     <img
                       src={feature.feature_image.fields.file.url}
                       alt={feature.title}
                     />
                   </div>
+                  <div
+                    className="featureContent"
+                    dangerouslySetInnerHTML={{
+                      __html:
+                        documentToHtmlString(feature.body).substring(0, 500) +
+                        " ... ",
+                    }}
+                  ></div>
                 </Link>
               </div>
             </div>

@@ -13,7 +13,11 @@ export default function SinglePost() {
 
     return miniFeatures.map((post) => (
       <div key={post.fields.slug} className="miniFeatureOne">
-        <img src={post.fields.feature_image.fields.file.url} alt={post.title} />
+        <img
+          className="featuredImage"
+          src={post.fields.feature_image.fields.file.url}
+          alt={post.title}
+        />
         <Link
           key={"/writing/" + post.fields.slug}
           to={"/writing/" + post.fields.slug}
