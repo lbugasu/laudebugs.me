@@ -29,7 +29,8 @@
     "react-scripts": "3.4.1",
     "saas": "^1.0.0",
     "serve": "^11.3.2",
-    "sharp": "^0.25.4"
+    "sharp": "^0.25.4",
+    "three": "^0.118.3"
   },
   "scripts": {
     "start": "react-scripts start",

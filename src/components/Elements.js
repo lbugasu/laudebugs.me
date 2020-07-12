@@ -24,6 +24,16 @@ const FrontImage = () => (
           <img src={github} alt="resume"></img>
         </a>
       </div>
+      <div className="element">
+        <a href="https://dev.to/lbugasu">
+          <img
+            src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+            alt="Laurence Ininda's DEV Profile"
+            height="50"
+            width="50"
+          ></img>
+        </a>
+      </div>
     </div>
   </>
 );
