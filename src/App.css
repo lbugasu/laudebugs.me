@@ -391,11 +391,6 @@ h2.playlist {
   padding: 2.5%;
 }
 
-.post_image {
-  width: 50%;
-  display: inline-block;
-}
-
 .postContent {
   width: 100%;
   display: inline-block;
@@ -737,21 +732,7 @@ div.singlePost {
   margin-right: 10%;
   margin-top: 2.5%;
 }
-div.experimentPost {
-  text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-div.expBody {
-  width: 100%;
-  text-align: left;
-}
-.expBody h2 {
-  text-align: left;
-  border: 0;
-  padding-top: 2%;
-  line-height: 12px;
-}
+
 div.postBody {
   width: 90%;
   align-self: auto;
