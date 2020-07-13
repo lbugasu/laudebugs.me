@@ -11,7 +11,7 @@ import ExperimentPostPage from "./Pages/ExperimentPostPage";
 import UpcomingWork from "./Pages/UpcomingWork";
 import Write from "./Pages/Write";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
-import CookiesAndPrivacy from "./Pages/PrivacyAndCookies";
+import PrivacyAndCookies from "./Pages/PrivacyAndCookies";
 import "./App.css";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NotFoundPage from "./Pages/NotFoundPage";
