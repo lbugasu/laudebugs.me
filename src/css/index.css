@@ -27,3 +27,13 @@ code {
 a:hover {
   cursor: url("../css/images/cursor-select.png") 8 8, pointer;
 }
+div.cookiebanner > span {
+  font-family: masqualero, sans-serif;
+  width: 80%;
+  font-size: 150%;
+  padding-top: 25%;
+}
+div.cookiebanner {
+  margin: 1%;
+  border-radius: 2px;
+}

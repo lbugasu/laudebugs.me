@@ -1,4 +1,19 @@
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-171168411-3"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-171168411-3");
+  </script>
+
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <link rel="apple-touch-icon" sizes="152x152" href="./icon-152.png" />
@@ -7,7 +22,7 @@
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="stylesheet" href="https://use.typekit.net/ivq8wdh.css" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
+  <link rel="stylesheet" href="../src/css/index.css" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <script
@@ -38,4 +53,17 @@
       document.getElementById("send").submit();
     }
   </script>
+  <script
+    type="text/javascript"
+    id="cookiebanner"
+    src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"
+    data-message="We use cookies to improve your experience <br/>by continuing, you agree to our cookie policy. "
+    data-height="40"
+    data-fg="#f8f3e3"
+    data-bg="#6b6b69"
+    data-link="#eb985c"
+    data-close-text="OK"
+    data-close-style="float:right; font-size: 150%; padding: 5px; font-style:font-family: masqualero, sans-serif; border:1px solid #f8f3e3 "
+    data-moreinfo="https://laudebugs.me/laudebugs.me/#/privacy-and-cookies"
+  ></script>
 </body>

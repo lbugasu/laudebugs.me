@@ -726,6 +726,9 @@ br.split {
   vertical-align: middle;
   font-weight: 300;
 }
+div.notfound {
+  text-align: center;
+}
 div.singlePost {
   align-self: center;
   margin-left: 10%;
