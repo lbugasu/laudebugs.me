@@ -20,13 +20,6 @@ A simple page which changes the featured image when you hover over the year
 Since I'm still deciding on whether to move my blog completely away from wordpress to my personal site, I'm gauging the features and flexibility available to me. As of now, I've been able to pull the posts form Contentful to the writing page. However, I have to consider other features to implement such as comments and likes by readers to drive engagement
 ![writing](wireframes/writing.png)
 
-/a single post page
-![a-single-post-page](wireframes/writing-post-page.png)
-
-/writing gallery
-For all my posts, I have a single page that displays all the posts
-
-![writing-gallery](wireframes/writing-gallery-page.png)
 
 ## Running the app
 
@@ -71,7 +64,7 @@ npm start
 
 ## Future work
 
-1. - [ ] Adding Experiments page
+1. - [X] Adding Experiments page
 2. - [ ] Connect Form to MySQL database
 3. - [x] Deploying website
          I attempted to deploy the site to Heroku using the following instructions but it keeps failing: [Tutorial: how to deploy a production React app to Heroku](https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08) by Jeremy Gottfried
