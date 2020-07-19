@@ -69,22 +69,22 @@ export default function Writing() {
             <a href="https://vimeo.com">Vimeo</a>.
           </p>
           <iframe
-            src="https://open.spotify.com/embed-podcast/episode/4RfBWD7ODOmxRIi5VdpZMB"
+            src="https://open.spotify.com/embed-podcast/episode/0RE4gudofJJOSt8mmldOkT"
             width="100%"
             height="160"
-            frameBorder="0"
+            frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
-            title="Uprising"
+            title="The Long Hot Summer"
           ></iframe>
           <iframe
-            src="https://open.spotify.com/embed-podcast/episode/3QEuqzMi8UJMg73LXihsRG"
+            src="https://open.spotify.com/embed-podcast/episode/4Nu3MqXpYurA5y7s6aL0vq"
             width="100%"
             height="232"
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
-            title="For Ima"
+            title="Making Amends"
           ></iframe>
         </div>
         <WritingFooter />

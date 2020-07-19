@@ -37,3 +37,9 @@ div.cookiebanner {
   margin: 1%;
   border-radius: 2px;
 }
+@media only screen and (max-width: 1000px) {
+  div.cookiebanner > span {
+    font-family: masqualero, sans-serif;
+    width: 90%;
+  }
+}

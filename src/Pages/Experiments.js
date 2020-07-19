@@ -44,6 +44,7 @@ export default function Experiments() {
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
+          title="Ecstasy"
         ></iframe>
       </div>
     </>

@@ -1,8 +1,6 @@
 import React from "react";
-
 import GeneralHeader from "../components/GeneralHeader";
 export default function WorkNotes() {
-  // const fs = require('fs');
   const notes = require("./worknotes.json");
 
   const printWork = () => {
