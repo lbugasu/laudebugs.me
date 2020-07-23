@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/laudebugs.me/static/css/main.78d34302.chunk.css",
+    "main.js": "/laudebugs.me/static/js/main.1727ebdb.chunk.js",
+    "runtime-main.js": "/laudebugs.me/static/js/runtime-main.23d15698.js",
+    "static/js/2.188db092.chunk.js": "/laudebugs.me/static/js/2.188db092.chunk.js",
+    "index.html": "/laudebugs.me/index.html",
+    "precache-manifest.1a9d84dd7bf1be8be6811dc98750a681.js": "/laudebugs.me/precache-manifest.1a9d84dd7bf1be8be6811dc98750a681.js",
+    "service-worker.js": "/laudebugs.me/service-worker.js",
+    "static/js/2.188db092.chunk.js.LICENSE.txt": "/laudebugs.me/static/js/2.188db092.chunk.js.LICENSE.txt",
+    "static/media/AfricanPassport.css": "/laudebugs.me/static/media/HighTide-Regular.3468484b.ttf",
+    "static/media/index.css": "/laudebugs.me/static/media/GlacialIndifference-Bold.f801e234.otf",
+    "static/media/Posts.less": "/laudebugs.me/static/media/Posts.a696beac.less",
+    "static/media/SinglePost.less": "/laudebugs.me/static/media/SinglePost.aceae8da.less",
+    "static/media/experiments.png": "/laudebugs.me/static/media/experiments.2d0c3cc0.png",
+    "static/media/eyeem.png": "/laudebugs.me/static/media/eyeem.2b97990d.png",
+    "static/media/github.png": "/laudebugs.me/static/media/github.9cc7e81e.png",
+    "static/media/li.png": "/laudebugs.me/static/media/li.58bc5b2a.png",
+    "static/media/resume.webp": "/laudebugs.me/static/media/resume.86e33271.webp",
+    "static/media/typewriter-large.jpg": "/laudebugs.me/static/media/typewriter-large.c7b8b2f4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23d15698.js",
+    "static/js/2.188db092.chunk.js",
+    "static/css/main.78d34302.chunk.css",
+    "static/js/main.1727ebdb.chunk.js"
+  ]
+}

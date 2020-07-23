@@ -8,12 +8,16 @@
 }
 
 .ap {
+  min-height: 100vh;
   color: #fffaeb;
   background-color: #070a0e;
-  cursor: url("../../css/images/cursor-pointer.png") 10 10, pointer;
+  cursor: url("../../css/images/cursor-pointer.png") 0 0, pointer;
 }
 .header {
   padding: 1.5%;
+}
+a:hover {
+  cursor: url("../../css/images/cursor-link.png") 0 0, pointer;
 }
 h1.pageTitle {
   font-family: "High Tide";
