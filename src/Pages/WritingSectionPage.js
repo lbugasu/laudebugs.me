@@ -1,10 +1,11 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
-
 import { useSectionedPosts } from "../custom-hooks";
 import { readableDate } from "../components/helpers";
+
 import "../components/Posts.less";
+import "./css/writingSection.css";
 
 import WritingHeader from "../components/WritingHeader";
 import WritingFooter from "../components/WritingFooter";
@@ -44,10 +45,10 @@ export default function WritingSectionPage({ match }) {
     ));
   };
   return (
-    <>
+    <div className={section}>
       <WritingHeader section={"/ " + section} />
       {renderPage()}
       <WritingFooter />
-    </>
+    </div>
   );
 }

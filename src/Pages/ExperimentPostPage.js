@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
-import { BLOCKS, MARKS } from "@contentful/rich-text-types";
+import { BLOCKS } from "@contentful/rich-text-types";
 
 import { useSingleExperiment } from "../custom-hooks";
 import { readableDate } from "../components/helpers";

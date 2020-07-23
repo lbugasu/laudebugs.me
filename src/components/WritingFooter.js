@@ -29,6 +29,12 @@ const WritingFooter = () => (
         <Link to="/writing-gallery">writing gallery</Link>
         <Link to="/worknotes">work notes</Link>
         <Link to="/experiments">experiments</Link>
+        <Link to="/africanpassport">
+          african passport
+          <span role="img" aria-label="radio">
+            📻
+          </span>
+        </Link>
       </div>
       <div className="footerSection">
         <h3>Contact</h3>

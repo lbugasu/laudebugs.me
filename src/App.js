@@ -8,12 +8,14 @@ import WritingGallery from "./Pages/WritingGallery";
 import WritingSectionPage from "./Pages/WritingSectionPage";
 import WritingSubjectPage from "./Pages/WritingSubjectPage";
 import ExperimentPostPage from "./Pages/ExperimentPostPage";
+import AfricanPassport from "./Pages/AfricanPassport";
 import UpcomingWork from "./Pages/UpcomingWork";
 import Write from "./Pages/Write";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import "./App.css";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NotFoundPage from "./Pages/NotFoundPage";
+import PrivacyAndCookies from "./Pages/PrivacyAndCookies";
 
 class App extends Component {
   render() {
@@ -31,7 +33,13 @@ class App extends Component {
               path="/writing-section/:section"
               component={WritingSectionPage}
             />
-            <Route path="/experiments" component={Experiments} exact/>
+            <Route path="/experiments" component={Experiments} exact />
+            <Route
+              path="/privacy-and-cookies"
+              component={PrivacyAndCookies}
+              exact
+            />
+
             <Route path="/post" component={PostPage} />
             <Route path="/writing-gallery" component={WritingGallery} />
             <Route path="/writing/:id" component={PostPage} />
@@ -39,7 +47,8 @@ class App extends Component {
             <Route path="/writing-currently" component={UpcomingWork} />
             <Route path="/write-to-me" component={Write} />
             <Route path="/privacy-policy" component={PrivacyPolicy} />
-            <Route path="/experiments/:id" component={ExperimentPostPage}/>
+            <Route path="/experiments/:id" component={ExperimentPostPage} />
+            <Route path="/africanpassport" component={AfricanPassport} />
             <Route component={NotFoundPage} />
           </Switch>
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 import { readableDate } from "../components/helpers";
 
 import ExperimentsHeader from "../components/ExperimentsHeader";
@@ -45,6 +44,7 @@ export default function Experiments() {
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
+          title="Ecstasy"
         ></iframe>
       </div>
     </>

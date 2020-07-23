@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bbf787dae0ebc248b2981b6e4d6ceb3",
+    "revision": "556fd34972b2acf7c3c38dd4ccaf94a1",
     "url": "/laudebugs.me/index.html"
   },
   {
-    "revision": "8e535c098f80a573d652",
-    "url": "/laudebugs.me/static/css/main.8c8403dc.chunk.css"
+    "revision": "cdbde5d58c64b2920240",
+    "url": "/laudebugs.me/static/css/main.78d34302.chunk.css"
   },
   {
-    "revision": "3b7e82d8dfe6af8cd0aa",
-    "url": "/laudebugs.me/static/js/2.dbf591f8.chunk.js"
+    "revision": "4e1c008644cc93b3deaa",
+    "url": "/laudebugs.me/static/js/2.188db092.chunk.js"
   },
   {
     "revision": "12bcb611199202335d77fd6a73a37f8e",
-    "url": "/laudebugs.me/static/js/2.dbf591f8.chunk.js.LICENSE.txt"
+    "url": "/laudebugs.me/static/js/2.188db092.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e535c098f80a573d652",
-    "url": "/laudebugs.me/static/js/main.b622d25b.chunk.js"
+    "revision": "cdbde5d58c64b2920240",
+    "url": "/laudebugs.me/static/js/main.1727ebdb.chunk.js"
   },
   {
     "revision": "81e49ea87e8d5b51dbfd",
     "url": "/laudebugs.me/static/js/runtime-main.23d15698.js"
   },
   {
+    "revision": "9818302bde1c74eaa2f0331c0b0b1189",
+    "url": "/laudebugs.me/static/media/Cardo-Regular.9818302b.ttf"
+  },
+  {
     "revision": "f801e234d51049bd538d3d95f6f4e110",
     "url": "/laudebugs.me/static/media/GlacialIndifference-Bold.f801e234.otf"
+  },
+  {
+    "revision": "3468484bab4aaad9c9d98948685f4f70",
+    "url": "/laudebugs.me/static/media/HighTide-Regular.3468484b.ttf"
   },
   {
     "revision": "a696beac4ba45cbb5cd92b4fa8e7d83c",
@@ -46,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9cc7e81ec42847a19caa0147ce8c0c0f",
     "url": "/laudebugs.me/static/media/github.9cc7e81e.png"
+  },
+  {
+    "revision": "58bc5b2a945407063815a0801ff2bb5a",
+    "url": "/laudebugs.me/static/media/li.58bc5b2a.png"
   },
   {
     "revision": "86e332710eae1361b9aa8725cf777c7c",
