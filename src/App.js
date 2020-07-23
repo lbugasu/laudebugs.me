@@ -8,6 +8,7 @@ import WritingGallery from "./Pages/WritingGallery";
 import WritingSectionPage from "./Pages/WritingSectionPage";
 import WritingSubjectPage from "./Pages/WritingSubjectPage";
 import ExperimentPostPage from "./Pages/ExperimentPostPage";
+import AfricanPassport from "./Pages/AfricanPassport";
 import UpcomingWork from "./Pages/UpcomingWork";
 import Write from "./Pages/Write";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
@@ -47,6 +48,7 @@ class App extends Component {
             <Route path="/write-to-me" component={Write} />
             <Route path="/privacy-policy" component={PrivacyPolicy} />
             <Route path="/experiments/:id" component={ExperimentPostPage} />
+            <Route path="/africanpassport" component={AfricanPassport} />
             <Route component={NotFoundPage} />
           </Switch>
         </div>

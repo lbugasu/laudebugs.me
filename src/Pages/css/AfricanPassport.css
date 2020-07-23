@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "High Tide";
+  src: url("../../css/fonts/high-tide/HighTide-Regular.ttf");
+}
+@font-face {
+  font-family: "Cardo Regular";
+  src: url("../../css/fonts/Cardo/Cardo-Regular.ttf");
+}
+
+.ap {
+  color: #fffaeb;
+  background-color: #070a0e;
+  cursor: url("../../css/images/cursor-pointer.png") 10 10, pointer;
+}
+.header {
+  padding: 1.5%;
+}
+h1.pageTitle {
+  font-family: "High Tide";
+  font-size: 400%;
+  font-weight: 200;
+  display: inline-block;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+div.li {
+  display: inline-block;
+  width: 20%;
+}
+img.li {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+div.musicContent {
+  padding-top: 1.5%;
+  font-family: "Cardo Regular";
+}
+div.album {
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.625%;
+}
+h1.albumTitle {
+  font-size: 75%;
+  text-align: center;
+}
+p.note {
+  letter-spacing: 1px;
+  font-style: italic;
+}
