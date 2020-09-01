@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "556fd34972b2acf7c3c38dd4ccaf94a1",
+    "revision": "3ddc1d0add59a58536715597c502d185",
     "url": "/laudebugs.me/index.html"
   },
   {
-    "revision": "cdbde5d58c64b2920240",
-    "url": "/laudebugs.me/static/css/main.78d34302.chunk.css"
+    "revision": "70d3218eb343b0eb76ef",
+    "url": "/laudebugs.me/static/css/main.1c628d6d.chunk.css"
   },
   {
-    "revision": "4e1c008644cc93b3deaa",
-    "url": "/laudebugs.me/static/js/2.188db092.chunk.js"
+    "revision": "fbcc63c6996f367f3540",
+    "url": "/laudebugs.me/static/js/2.747a0134.chunk.js"
   },
   {
     "revision": "12bcb611199202335d77fd6a73a37f8e",
-    "url": "/laudebugs.me/static/js/2.188db092.chunk.js.LICENSE.txt"
+    "url": "/laudebugs.me/static/js/2.747a0134.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdbde5d58c64b2920240",
-    "url": "/laudebugs.me/static/js/main.1727ebdb.chunk.js"
+    "revision": "70d3218eb343b0eb76ef",
+    "url": "/laudebugs.me/static/js/main.d79966ca.chunk.js"
   },
   {
     "revision": "81e49ea87e8d5b51dbfd",
@@ -44,6 +44,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/laudebugs.me/static/media/SinglePost.aceae8da.less"
   },
   {
+    "revision": "1111c448d14dc96dfe4d8d88033e5875",
+    "url": "/laudebugs.me/static/media/apple.1111c448.png"
+  },
+  {
+    "revision": "29edd2e444a3fd3264341a4cd528cd29",
+    "url": "/laudebugs.me/static/media/close.29edd2e4.png"
+  },
+  {
     "revision": "2d0c3cc038a4d105fe2fdfacf4810362",
     "url": "/laudebugs.me/static/media/experiments.2d0c3cc0.png"
   },
@@ -64,7 +72,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/laudebugs.me/static/media/resume.86e33271.webp"
   },
   {
+    "revision": "919ec8707164e35d0419eacad95b6c2e",
+    "url": "/laudebugs.me/static/media/show.919ec870.png"
+  },
+  {
+    "revision": "88175e332832124c9d8072b05047a539",
+    "url": "/laudebugs.me/static/media/spotify.88175e33.png"
+  },
+  {
     "revision": "c7b8b2f4d13e03c1527e2a09afd9395f",
     "url": "/laudebugs.me/static/media/typewriter-large.c7b8b2f4.jpg"
+  },
+  {
+    "revision": "ac82cb640cc4122a2d005b04f9773c4f",
+    "url": "/laudebugs.me/static/media/youtube.ac82cb64.png"
   }
 ]);

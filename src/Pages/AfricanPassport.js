@@ -19,9 +19,9 @@ const printMusic = () => {
           <h1 className="albumTitle">
             {note.artist} - {note.title}
           </h1>
-          <div className="button">
+          {/* <div className="button">
           <img className="button" src={show} alt={note.title}></img>
-          </div>
+          </div> */}
 
         </div>
         <div className="listen">

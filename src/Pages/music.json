@@ -1,5 +1,22 @@
 [
   {
+    "title":"Tawasifu Ya Moyo",
+    "artist":"Njoki Karu",
+    "albumArt":"https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/30/f9/d2/30f9d2a9-4b1e-6917-b56f-9b15b7a233ae/artwork.jpg/500x500bb-60.jpg",
+    "appleMusic":"https://music.apple.com/mg/album/tawasifu-ya-moyo-ep/1528927354",
+    "spotify":"spotify:album:0BPwyOsMg7lQrdxWoy4YLv",
+    "youtubeMusic":"https://music.youtube.com/playlist?list=OLAK5uy_mg7xlzVu5qMVb5o659Xto49INhYU7Z1FE"
+  },
+  {
+    
+    "title": "Twice As Tall",
+    "artist": "Burna Boy",
+    "albumArt": "https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/o78tubxx0crwgctql1rw/bb",
+    "spotify": "https://open.spotify.com/album/218CJKDCszsQQj7Amk7vIu?si=IQhUg85ORdm2W9EtR3SYzg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mbUMfXS1oNFBHlxbFtbhoOVI4f47DsZvY",
+    "appleMusic": "https://music.apple.com/us/album/twice-as-tall/1527514852"
+  },
+  {
     "title": "NYUMBA",
     "artist": "Jack Rooster",
     "albumArt": "https://i1.sndcdn.com/artworks-000551412996-pi88rf-t500x500.jpg",
@@ -26,7 +43,7 @@
   {
     "title": "Isphithiphithi",
     "artist": "Samthing Soweto",
-    "albumArt": "https://citizen.co.za/wp-content/uploads/2019/09/samthing-soweto-414x418.png",
+    "albumArt": "https://e.snmc.io/i/600/w/b49072bcc9062e5921aab09c1370935d/7881448",
     "spotify": "https://open.spotify.com/album/4sO9GxYupSVEJ3rRsaVpnd?si=HSL3vyIpQlGW3H6SIx7uBA",
     "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kOHY6QFUzJvNqbabjQUjp1M5TyoOa317g",
     "appleMusic": "https://music.apple.com/za/album/isphithiphithi/1478000814"

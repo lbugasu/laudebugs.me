@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/laudebugs.me/precache-manifest.1a9d84dd7bf1be8be6811dc98750a681.js"
+  "/laudebugs.me/precache-manifest.aa96261c42b5d451b7e89c137e7e5213.js"
 );
 
 self.addEventListener('message', (event) => {
