@@ -91,7 +91,7 @@ Julie: The Unwinding of the Miracle<br />
 Serial<br />
 S-Town<br />
 <br />
-## The Internet 📡 & Tech 💾
+## 📡 The Internet & Tech 💾
 The Stack Overflow Podcast<br />
 Syntax - Tasty Web Development Treats<br />
 Reply All<br />
@@ -146,7 +146,7 @@ The Comb <br />
 We Share The Same Sky<br />
 <br />
 <br />
-## Business👔 & Money💸
+## 👔 Business & Money💸
 HBR Ideacast<br />
 Dear HBR<br />
 The Indicator from Planet Money<br />
