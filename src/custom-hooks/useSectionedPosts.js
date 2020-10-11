@@ -10,9 +10,7 @@ export default function useTaggedPost(tag) {
 
   useEffect(() => {
     promise.then((result) => {
-      const sortedPosts = result.sort(function (a, b) {
-        return new Date(b.fields.date) - new Date(a.fields.date);
-      });
+       
       setPosts(sortedPosts);
       setLoading(false);
     });

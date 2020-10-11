@@ -4,7 +4,7 @@
   "engines": {
     "node": "12.x"
   },
-  "homepage": "https://lbugasu.github.io/laudebugs.me",
+  "homepage": "https://lbugasu.github.io/",
   "private": true,
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^14.1.1",
