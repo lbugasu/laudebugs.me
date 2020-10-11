@@ -7,6 +7,7 @@
   "homepage": "https://lbugasu.github.io/",
   "private": true,
   "dependencies": {
+    "-": "0.0.1",
     "@contentful/rich-text-html-renderer": "^14.1.1",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.3",

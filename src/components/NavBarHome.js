@@ -11,7 +11,7 @@ const NavBarHome = () => (
     <div className="homeNav" id="right">
       <Link to="/writing">writing</Link>
       <br></br>
-      <Link to="/worknotes">worknotes</Link>
+      <Link to="/projects">projects</Link>
       <br></br>
       <Link to="/experiments">experiments</Link>
     </div>

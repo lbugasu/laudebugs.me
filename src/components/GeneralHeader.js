@@ -11,7 +11,7 @@ const WritingHeader = () => (
       </div>
       <div className="genNav" id="right">
         <Link to="/writing">writing</Link>
-        <Link to="/worknotes">worknotes</Link>
+        <Link to="/projects">projects</Link>
         <Link to="/experiments">experiments</Link>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import HomePage from "./Pages/HomePage";
 import Experiments from "./Pages/Experiments";
 import PostPage from "./Pages/PostPage";
-import WorkNotes from "./Pages/WorkNotes";
+import Projects from "./Pages/Projects";
 import Writing from "./Pages/Writing";
 import WritingGallery from "./Pages/WritingGallery";
 import WritingSectionPage from "./Pages/WritingSectionPage";
@@ -43,7 +43,7 @@ class App extends Component {
             <Route path="/post" component={PostPage} />
             <Route path="/writing-gallery" component={WritingGallery} />
             <Route path="/writing/:id" component={PostPage} />
-            <Route path="/worknotes" component={WorkNotes} />
+            <Route path="/projects" component={Projects} />
             <Route path="/writing-currently" component={UpcomingWork} />
             <Route path="/write-to-me" component={Write} />
             <Route path="/privacy-policy" component={PrivacyPolicy} />
