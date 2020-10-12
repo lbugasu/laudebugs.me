@@ -13,7 +13,7 @@ export default function Projects() {
           <img src={note.img} alt={note.description}></img>
           <p>
             Stack:{" "}
-            {note.tech
+            {note.tech  
               .slice(0, note.tech.length - 1)
               .map((t) => " " + t + " | ")}{" "}
             {note.tech[note.tech.length - 1]}

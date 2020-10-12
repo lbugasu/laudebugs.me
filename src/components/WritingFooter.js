@@ -27,7 +27,7 @@ const WritingFooter = () => (
         <Link to="/">home</Link>
         <Link to="/writing-currently">current writing</Link>
         <Link to="/writing-gallery">writing gallery</Link>
-        <Link to="/worknotes">work notes</Link>
+        <Link to="/projects">projects</Link>
         <Link to="/experiments">experiments</Link>
         <Link to="/africanpassport">
           african passport

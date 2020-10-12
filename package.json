@@ -4,7 +4,7 @@
   "engines": {
     "node": "12.x"
   },
-  "homepage": "https://lbugasu.github.io/",
+  "homepage": "https://lbugasu.github.io/lbugasu.github.io",
   "private": true,
   "dependencies": {
     "-": "0.0.1",
@@ -27,6 +27,7 @@
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
     "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.2.2",
     "react-scripts": "^3.4.3",
     "saas": "^1.0.0",
     "serve": "^11.3.2",

@@ -59,9 +59,11 @@
 .homeNav {
   width: 40%;
   display: inline-block;
-  font-size: 32px;
+  font-size: 100%;
   margin-left: 5%;
   margin-right: 5%;
+  
+  
 }
 
 .homeNav h1 {
@@ -94,11 +96,12 @@
 }
 
 .laurence {
+  color: #D9D9D9;
   letter-spacing: 2px;
 }
 
 .bugasu {
-  letter-spacing: 19px;
+  letter-spacing: 10px;
 }
 
 h1.write {
@@ -172,17 +175,25 @@ div.g-recaptcha {
 }
 
 .homeNav a {
-  text-decoration: underline;
-  color: black;
-  font-size: 28px;
+  text-decoration: none;
+  color: #D9D9D9;
+  font-size: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
-
+div.headMenu{
+  background-color: #382A40;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 .homeNav a:hover {
   text-decoration: line-through;
 }
 
 .homeNav a:visited {
-  color: black;
+  color: #D9D9D9;
 }
 
 .frontImage {
@@ -564,14 +575,20 @@ div.worknotes {
 .word {
   letter-spacing: 12px;
 }
-
-.kazimoja {
-  width: 80%;
-  border: 1.5px solid black;
-  text-align: center;
-  margin-left: 10%;
+div.work{
+  margin-left: 5%;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
+div.kazimoja {
+  vertical-align: top;
+  width: 40%;
+  display: inline-block;
+  border: 1px solid #382A40;
+  text-align: center;
+  margin:2.5%;
+}
 .kazimoja hr {
   border: none;
   height: 1.5px;
@@ -678,6 +695,64 @@ div.projectDescription {
   text-align: justify;
 }
 
+div.description{
+  padding-top: 2%;
+
+  padding-left: 5%;
+  /* padding-right: 5%; */
+  width: 50%;
+  display: inline-block;
+}
+div.desc2{
+  padding: 5%;
+}
+h2.description{
+  text-align: left;
+  font-size: 100%;
+}
+p.description{
+  font-size: 125%;
+}
+.skills h3{
+  padding: 0;
+  margin: 0;
+}
+div.more{
+  display: inline-block;
+  font-size: 125%;
+  width: 50%;
+}
+div.skills{
+  width: 33%;
+  margin-left:5%;
+  display: inline-block;
+  vertical-align: top;
+}
+.skills p{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+p.poem{
+  text-align:center;
+  font-style: italic;
+}
+div.profileImage{
+  width: 30%;
+  padding-left: 10%;
+  display: inline-block;
+  vertical-align: top;
+}
+hr.homeHr{
+  width: 60%;
+}
+.description a{
+  text-decoration: none;
+}
+img.profile{
+  padding-top: 5%;
+  float:left;
+}
 @media only screen and (max-width: 1000px) {
   div.worknotes {
     width: 100%;
@@ -760,7 +835,20 @@ div.projectDescription {
     display: block;
     width: 100%;
   }
+  div.profileImage{
+    width: 90%;
+  padding-left: 5%;
 
+  }
+  div.skills{
+    width: 100%;
+  }
+  div.description{
+    width: 100%;
+  }
+  div.more{
+    width: 100%;
+  }
   div.element {
     width: 10%;
     padding: 10%;
@@ -778,8 +866,9 @@ div.projectDescription {
   #right {
     text-align: center;
   }
-
-  .homeNav h1 {
+  h1.laurence {
+    width: 100%;
+    text-emphasis: center;
     font-size: 200%;
   }
 
