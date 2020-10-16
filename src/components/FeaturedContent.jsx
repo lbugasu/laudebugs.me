@@ -25,7 +25,9 @@ export default function SinglePost() {
         >
           <small>{readableDate(post.fields.date)}</small>
 
-          <h3 className="miniFeatureTitle">{post.fields.title}</h3>
+          <h3 className="miniFeatureTitle">
+            {post.fields.title}
+            </h3>
 
           <p>{post.fields.description}</p>
           <div

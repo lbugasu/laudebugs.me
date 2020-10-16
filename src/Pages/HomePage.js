@@ -10,7 +10,7 @@ export default function Homepage (){
   const printHome = ()=>{
     return notes.map((note) => (
       
-        <div className="kazimoja">
+        <div id="homeProjects" className="kazimoja">
           <h1 className="workTitle">{note.title}</h1>
           <hr></hr>
           <p>{note.description}</p>
@@ -36,16 +36,16 @@ export default function Homepage (){
   };
   return(
     <>
-    
+    <div className="homePage">
     <NavBarHome />
       <div className = "description">
-        <h1 className="description">about me</h1>
+        <p>A bit about me シ</p>
         <p className="description">
-          A couple of things describe me:<br/> 
-          ⭒ Full stack Web developer.<br/> 
-          ⭒ I aim to <em>tell stories</em> through my work.<br/> 
-          ⭒ I’m serious about my notes, just ask <a href="https://notesikeep.wordpress.com" target="__blank">WordPress☟</a> or look <Link to="/writing">here↗</Link>.<br/> 
-          ⭒ I also have an interest in Natural Language Processing and Predictive Analytics.
+          <span className="aboutMe">
+          I am a <span className="software"> software developer</span> who aims to weave <span className="stories">stories</span> into the products that I build. 
+          Through listening and collaboration, I believe that meaningful work comes when we 
+          continue to ask the right questions.</span><br/> 
+          [I’m also serious about my notes, just ask <a href="https://notesikeep.wordpress.com" target="__blank">WordPress☟</a> or look <Link to="/writing">here↗</Link>.]<br/> 
         </p>
       </div>
       <div className="profileImage">
@@ -59,10 +59,12 @@ export default function Homepage (){
         <p className="more">❝Opportunities to work on projects alongside other developers in teams has helped me gain perspective in problem solving as well as challenged me to always keep learning and growing personally as well as a programmer.</p>
         </div>
         <div className="skills">
-          <h3> Skills:</h3>
+          <h3>Skills ▹</h3>
+          <span className="skillsList">
           <p>⋄ JavaScript <br/> ⋄ React <br/> ⋄ Node</p>
           <p>⋄ Java <br/>  ⋄ C++ <br/>⋄ Python </p>
-          <p> ⋄ NLP <br/> ⋄ AWS</p>
+          <p>⋄ NLP <br/> ⋄ AWS</p>
+          </span>
         </div>
       </div>
 
@@ -77,7 +79,7 @@ export default function Homepage (){
           May find a light into the future.
         </p>
       <Elements />
-    
+      </div>
     </>
   )
 }

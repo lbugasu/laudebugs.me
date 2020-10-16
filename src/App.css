@@ -98,8 +98,12 @@
 .laurence {
   color: #D9D9D9;
   letter-spacing: 2px;
+  padding: 0;
+  margin:1%;
 }
-
+h1.laurence{
+  font-family: "Agrandir-GrandLight";
+}
 .bugasu {
   letter-spacing: 10px;
 }
@@ -187,6 +191,10 @@ div.headMenu{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 .homeNav a:hover {
   text-decoration: line-through;
@@ -265,7 +273,8 @@ h1.lb {
   border-radius: 1%;
   font-size: 56px;
   letter-spacing: 6px;
-  padding: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
 }
 
 .pageTitle {
@@ -583,11 +592,14 @@ div.work{
 
 div.kazimoja {
   vertical-align: top;
-  width: 40%;
+  
   display: inline-block;
   border: 1px solid #382A40;
   text-align: center;
   margin:2.5%;
+}
+div#homeProjects{
+  width: 40%;
 }
 .kazimoja hr {
   border: none;
@@ -694,7 +706,27 @@ div.project {
 div.projectDescription {
   text-align: justify;
 }
-
+.aboutMe{
+  /* font-family: "Agrandir-WideLight"; */
+  font-weight: 500;
+  font-style: normal;
+  font-size: 150%;
+}
+.software{
+  font-family: "Agrandir-WideLight";
+}
+.stories{
+  font-family: "Agrandir-GrandLight";
+}
+.skillsList{
+  font-family: "Agrandir-GrandLight";
+}
+div.homePage{
+  font-family: "Agrandir-Regular";
+  padding: 0;
+  margin: 0;
+  padding: 0;
+}
 div.description{
   padding-top: 2%;
 
@@ -723,13 +755,13 @@ div.more{
   width: 50%;
 }
 div.skills{
-  width: 33%;
+  width: 40%;
   margin-left:5%;
   display: inline-block;
   vertical-align: top;
 }
 .skills p{
-  width: 30%;
+  width: 33%;
   display: inline-block;
   vertical-align: top;
 }
@@ -782,6 +814,15 @@ img.profile{
   .experimentsHeader img {
     width: 10%;
   }
+  .aboutMe{
+    font-size: 150%;
+  }
+  div.description{
+    padding:2.5%;
+    /* padding-right: 5%; */
+    width: 100%;
+    display: inline-block;
+  }
   div.lau {
     width: 100%;
     text-align: center;
@@ -806,8 +847,6 @@ img.profile{
 
   h1.lb {
     font-size: 100%;
-    margin-top: 10%;
-    padding-top: 5%;
   }
   div.worknotes h1 {
     font-size: 24px;
@@ -860,6 +899,14 @@ img.profile{
     font-size: 100%;
     text-align: center;
   }
+  div.kazimoja{
+    width: 90%;
+    padding: 5%;
+    display: block;
+  }
+  div#homeProjects{
+    width: 80%;
+  }
   .genNav {
     width: 100%;
   }
@@ -868,8 +915,9 @@ img.profile{
   }
   h1.laurence {
     width: 100%;
+    text-align: center;
     text-emphasis: center;
-    font-size: 200%;
+    font-size: 150%;
   }
 
   textarea {

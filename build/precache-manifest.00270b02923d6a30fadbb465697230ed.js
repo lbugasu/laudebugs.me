@@ -1,27 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "911c18642cff604b6906d705afa50316",
+    "revision": "b594efb232243f2fd0291fab61134c47",
     "url": "/lbugasu.github.io/index.html"
   },
   {
-    "revision": "9c4fd33fc60eae682890",
-    "url": "/lbugasu.github.io/static/css/main.622198f3.chunk.css"
+    "revision": "fdef41d45df0b7101d41",
+    "url": "/lbugasu.github.io/static/css/main.989df13f.chunk.css"
   },
   {
-    "revision": "3323490dbf87ef6e58c9",
-    "url": "/lbugasu.github.io/static/js/2.2f127f64.chunk.js"
+    "revision": "a2ace37476918de16802",
+    "url": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js"
   },
   {
     "revision": "12bcb611199202335d77fd6a73a37f8e",
-    "url": "/lbugasu.github.io/static/js/2.2f127f64.chunk.js.LICENSE.txt"
+    "url": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c4fd33fc60eae682890",
-    "url": "/lbugasu.github.io/static/js/main.d006f1ea.chunk.js"
+    "revision": "fdef41d45df0b7101d41",
+    "url": "/lbugasu.github.io/static/js/main.994ff5c1.chunk.js"
   },
   {
     "revision": "7e7bcc440757918b12a2",
     "url": "/lbugasu.github.io/static/js/runtime-main.fcaae28e.js"
+  },
+  {
+    "revision": "19dae88e711b82c8ced9bff1a5687339",
+    "url": "/lbugasu.github.io/static/media/Agrandir-GrandHeavy.19dae88e.otf"
+  },
+  {
+    "revision": "c45752d7e548055b3cad68f1064b1cbe",
+    "url": "/lbugasu.github.io/static/media/Agrandir-GrandLight.c45752d7.otf"
+  },
+  {
+    "revision": "07b5a064c237c17d6f220ae708624d18",
+    "url": "/lbugasu.github.io/static/media/Agrandir-Narrow.07b5a064.otf"
+  },
+  {
+    "revision": "c6916a923e67d5aa80989430382d75bf",
+    "url": "/lbugasu.github.io/static/media/Agrandir-Regular.c6916a92.otf"
+  },
+  {
+    "revision": "3935ef7cd2459725f06e0ba4a1a105a2",
+    "url": "/lbugasu.github.io/static/media/Agrandir-TextBold.3935ef7c.otf"
+  },
+  {
+    "revision": "ca9cc6e75fe65f60e1a44a8bba0f907f",
+    "url": "/lbugasu.github.io/static/media/Agrandir-WideLight.ca9cc6e7.otf"
   },
   {
     "revision": "9818302bde1c74eaa2f0331c0b0b1189",

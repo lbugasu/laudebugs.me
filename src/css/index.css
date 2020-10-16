@@ -2,18 +2,41 @@
   font-family: "GlacialIndifference";
   src: url("./fonts/glacial-indifference/GlacialIndifference-Bold.otf");
 }
+@font-face {
+  font-family: "Agrandir-GrandHeavy";
+  src: url("./fonts/Agrandir/Agrandir-GrandHeavy.otf");
+}
+@font-face {
+  font-family: "Agrandir-GrandLight";
+  src: url("./fonts/Agrandir/Agrandir-GrandLight.otf");
+}
+@font-face {
+  font-family: "Agrandir-Narrow";
+  src: url("./fonts/Agrandir/Agrandir-Narrow.otf");
+}
+@font-face {
+  font-family: "Agrandir-Regular";
+  src: url("./fonts/Agrandir/Agrandir-Regular.otf");
+}
+@font-face {
+  font-family: "Agrandir-WideLight";
+  src: url("./fonts/Agrandir/Agrandir-WideLight.otf");
+}
+@font-face {
+  font-family: "Agrandir-TextBold";
+  src: url("./fonts/Agrandir/Agrandir-TextBold.otf");
+}
 
 body {
   margin: 0;
-  font-family: "GlacialIndifference";
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #F4F4F4;
 
-  font-family: cormorant-garamond, serif;
-
-  font-weight: 300;
+  font-family: "Agrandir-Regular";
+  
+  font-weight: 500;
 
   font-style: normal;
   color:#59493B;
