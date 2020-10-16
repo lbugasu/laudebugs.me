@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b594efb232243f2fd0291fab61134c47",
+    "revision": "b8d02436bb652c2f58164e06b582f156",
     "url": "/lbugasu.github.io/index.html"
   },
   {
-    "revision": "fdef41d45df0b7101d41",
-    "url": "/lbugasu.github.io/static/css/main.989df13f.chunk.css"
+    "revision": "95fc6d9a8fa963cdd9f9",
+    "url": "/lbugasu.github.io/static/css/main.76cfec81.chunk.css"
   },
   {
     "revision": "a2ace37476918de16802",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdef41d45df0b7101d41",
+    "revision": "95fc6d9a8fa963cdd9f9",
     "url": "/lbugasu.github.io/static/js/main.994ff5c1.chunk.js"
   },
   {

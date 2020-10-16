@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/lbugasu.github.io/static/css/main.989df13f.chunk.css",
+    "main.css": "/lbugasu.github.io/static/css/main.76cfec81.chunk.css",
     "main.js": "/lbugasu.github.io/static/js/main.994ff5c1.chunk.js",
     "runtime-main.js": "/lbugasu.github.io/static/js/runtime-main.fcaae28e.js",
     "static/js/2.c9916dc8.chunk.js": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js",
     "index.html": "/lbugasu.github.io/index.html",
-    "precache-manifest.00270b02923d6a30fadbb465697230ed.js": "/lbugasu.github.io/precache-manifest.00270b02923d6a30fadbb465697230ed.js",
+    "precache-manifest.1a8766de79adc01224408bf0acdaa231.js": "/lbugasu.github.io/precache-manifest.1a8766de79adc01224408bf0acdaa231.js",
     "service-worker.js": "/lbugasu.github.io/service-worker.js",
     "static/js/2.c9916dc8.chunk.js.LICENSE.txt": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lbugasu.github.io/static/media/GlacialIndifference-Bold.f801e234.otf",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.fcaae28e.js",
     "static/js/2.c9916dc8.chunk.js",
-    "static/css/main.989df13f.chunk.css",
+    "static/css/main.76cfec81.chunk.css",
     "static/js/main.994ff5c1.chunk.js"
   ]
 }
