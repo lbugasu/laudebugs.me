@@ -8,7 +8,7 @@ import profile from "../css/images/profile.JPG";
 export default function Homepage (){
   const notes = require("./projects.json")
   const printHome = ()=>{
-    return notes.map((note) => (
+    return notes.slice(0,4).map((note) => (
       
         <div id="homeProjects" className="kazimoja">
           <h1 className="workTitle">{note.title}</h1>
@@ -63,7 +63,7 @@ export default function Homepage (){
           <span className="skillsList">
           <p>⋄ JavaScript <br/> ⋄ React <br/> ⋄ Node</p>
           <p>⋄ Java <br/>  ⋄ C++ <br/>⋄ Python </p>
-          <p>⋄ NLP <br/> ⋄ AWS</p>
+          <p>⋄ NLP <br/> ⋄ HTML <br/> ⋄ CSS</p>
           </span>
         </div>
       </div>

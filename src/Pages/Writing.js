@@ -56,18 +56,27 @@ export default function Writing() {
         <div className="playlist">
           <h2 className="playlist">playlist</h2>
           <iframe
-            src="https://player.vimeo.com/video/425396315?color=ffffff&badge=0"
+            src="https://player.vimeo.com/video/465205943?color=ffffff&badge=0"
             frameBorder="0"
             allow="autoplay; fullscreen"
             allowFullScreen
-            title="We are George Floyd"
+            title="Echoes"
             width="100%"
           ></iframe>
           <p>
-            <a href="https://vimeo.com/425396315">WE ARE GEORGE FLOYD</a> from{" "}
-            <a href="https://vimeo.com/julianmarshall">Julian Marshall</a> on{" "}
+            <a href="https://vimeo.com/425396315">Echoes</a> from{" "}
+            <a href="https://vimeo.com/julianmarshall">Tucker Morrison</a> on{" "}
             <a href="https://vimeo.com">Vimeo</a>.
           </p>
+          <iframe 
+            src="https://open.spotify.com/embed-podcast/episode/1iDzfqn3ydQSxgfai96sYR" 
+            width="100%" 
+            height="160" 
+            frameborder="0" a
+            llowtransparency="true" 
+            allow="encrypted-media"
+            title="Rev. Otis Moss IIIThe Sound of the Genuine: Traversing 2020 with ‘the Mystic of the Movement’ Howard Thurman"
+            ></iframe>
           <iframe
             src="https://open.spotify.com/embed-podcast/episode/0RE4gudofJJOSt8mmldOkT"
             width="100%"
@@ -80,7 +89,7 @@ export default function Writing() {
           <iframe
             src="https://open.spotify.com/embed-podcast/episode/4Nu3MqXpYurA5y7s6aL0vq"
             width="100%"
-            height="232"
+            height="160"
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"

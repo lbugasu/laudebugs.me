@@ -7,11 +7,18 @@
     "link": "https://github.com/lbugasu/onthistopic"
   },
   {
-    "title": "Viables",
-    "description": "a mobile app to track carton box reuse on campuses",
-    "img": "https://raw.githubusercontent.com/lbugasu/lbugasu.github.io-old/master/css/images/viables.png",
-    "tech": ["flutter", "dart", "javascript", "html"],
-    "link": "https://devpost.com/software/viables"
+    "title":"The Sosiani Library Project",
+    "description":"A website to provide information to a fundraising project (run in the Summer of 2018) towards a library in Eldoret, KE.",
+    "img":"https://raw.githubusercontent.com/lbugasu/thesosianiproject/master/resources/landing.png",
+    "tech":["HTML","CSS","Node.js", "Express"],
+    "link":"https://thesosianiproject.tamaduni.org/"
+  },
+  {
+    "title":"Kenya Web Project",
+    "description":"Analysed the performance, download size, time spent on the top 500 Kenyan websites (according to Alexa as of July 2020) as well as performed some analysis on the dataset",
+    "img":"https://images.ctfassets.net/rnmht6wsj5nl/6W72C29L5S7keKpwOHJbgq/926a6cd4c9dad8440dd5ed5109fc7fbd/kwp.webp",
+    "tech":["Python","Java","javascript"],
+    "link":"https://lbugasu.github.io/#/experiments/kenya-web-project"
   },
   {
     "title": "Sentiment Analysis on Rotten Tomatoes movie reviews",
@@ -26,5 +33,12 @@
     "img": "https://raw.githubusercontent.com/lbugasu/lbugasu.github.io-old/master/css/images/tamaduni.png",
     "tech": ["javascript", "html", "node.js", "express"],
     "link": "http://tamaduni.org/"
+  },
+  {
+    "title": "Viables",
+    "description": "a mobile app to track carton box reuse on campuses",
+    "img": "https://raw.githubusercontent.com/lbugasu/lbugasu.github.io-old/master/css/images/viables.png",
+    "tech": ["flutter", "dart", "javascript", "html"],
+    "link": "https://devpost.com/software/viables"
   }
 ]

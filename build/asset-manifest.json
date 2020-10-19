@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lbugasu.github.io/static/css/main.76cfec81.chunk.css",
-    "main.js": "/lbugasu.github.io/static/js/main.994ff5c1.chunk.js",
+    "main.js": "/lbugasu.github.io/static/js/main.02f88e69.chunk.js",
     "runtime-main.js": "/lbugasu.github.io/static/js/runtime-main.fcaae28e.js",
-    "static/js/2.c9916dc8.chunk.js": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js",
+    "static/js/2.3ae515da.chunk.js": "/lbugasu.github.io/static/js/2.3ae515da.chunk.js",
     "index.html": "/lbugasu.github.io/index.html",
-    "precache-manifest.1a8766de79adc01224408bf0acdaa231.js": "/lbugasu.github.io/precache-manifest.1a8766de79adc01224408bf0acdaa231.js",
+    "precache-manifest.8fa404d57c91132ec674d99426aaa46a.js": "/lbugasu.github.io/precache-manifest.8fa404d57c91132ec674d99426aaa46a.js",
     "service-worker.js": "/lbugasu.github.io/service-worker.js",
-    "static/js/2.c9916dc8.chunk.js.LICENSE.txt": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js.LICENSE.txt",
+    "static/js/2.3ae515da.chunk.js.LICENSE.txt": "/lbugasu.github.io/static/js/2.3ae515da.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lbugasu.github.io/static/media/GlacialIndifference-Bold.f801e234.otf",
     "static/media/AfricanPassport.css": "/lbugasu.github.io/static/media/HighTide-Regular.3468484b.ttf",
     "static/media/Posts.less": "/lbugasu.github.io/static/media/Posts.a696beac.less",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fcaae28e.js",
-    "static/js/2.c9916dc8.chunk.js",
+    "static/js/2.3ae515da.chunk.js",
     "static/css/main.76cfec81.chunk.css",
-    "static/js/main.994ff5c1.chunk.js"
+    "static/js/main.02f88e69.chunk.js"
   ]
 }

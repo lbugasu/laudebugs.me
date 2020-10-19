@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8d02436bb652c2f58164e06b582f156",
+    "revision": "267d596707d092d55b4d5671fb891ba7",
     "url": "/lbugasu.github.io/index.html"
   },
   {
-    "revision": "95fc6d9a8fa963cdd9f9",
+    "revision": "01a64eb2b32a1cb1deca",
     "url": "/lbugasu.github.io/static/css/main.76cfec81.chunk.css"
   },
   {
-    "revision": "a2ace37476918de16802",
-    "url": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js"
+    "revision": "12d08f3cbefff2640509",
+    "url": "/lbugasu.github.io/static/js/2.3ae515da.chunk.js"
   },
   {
     "revision": "12bcb611199202335d77fd6a73a37f8e",
-    "url": "/lbugasu.github.io/static/js/2.c9916dc8.chunk.js.LICENSE.txt"
+    "url": "/lbugasu.github.io/static/js/2.3ae515da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95fc6d9a8fa963cdd9f9",
-    "url": "/lbugasu.github.io/static/js/main.994ff5c1.chunk.js"
+    "revision": "01a64eb2b32a1cb1deca",
+    "url": "/lbugasu.github.io/static/js/main.02f88e69.chunk.js"
   },
   {
     "revision": "7e7bcc440757918b12a2",
