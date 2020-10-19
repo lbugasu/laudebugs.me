@@ -26,7 +26,10 @@
   font-family: "Agrandir-TextBold";
   src: url("./fonts/Agrandir/Agrandir-TextBold.otf");
 }
-
+@font-face{
+  font-family: "Culture";
+  src: url("./fonts/Culture/Culture.otf");
+}
 body {
   margin: 0;
 
