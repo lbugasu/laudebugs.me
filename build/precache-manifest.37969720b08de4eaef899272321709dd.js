@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "267d596707d092d55b4d5671fb891ba7",
+    "revision": "0f200ae20d5b7ecd8fe1778500eac221",
     "url": "/lbugasu.github.io/index.html"
   },
   {
-    "revision": "01a64eb2b32a1cb1deca",
-    "url": "/lbugasu.github.io/static/css/main.76cfec81.chunk.css"
+    "revision": "8f09f7d298fe6fb07c07",
+    "url": "/lbugasu.github.io/static/css/main.dc966d3c.chunk.css"
   },
   {
-    "revision": "12d08f3cbefff2640509",
-    "url": "/lbugasu.github.io/static/js/2.3ae515da.chunk.js"
+    "revision": "89816af23a2fb03a20de",
+    "url": "/lbugasu.github.io/static/js/2.0b4d90a0.chunk.js"
   },
   {
     "revision": "12bcb611199202335d77fd6a73a37f8e",
-    "url": "/lbugasu.github.io/static/js/2.3ae515da.chunk.js.LICENSE.txt"
+    "url": "/lbugasu.github.io/static/js/2.0b4d90a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01a64eb2b32a1cb1deca",
-    "url": "/lbugasu.github.io/static/js/main.02f88e69.chunk.js"
+    "revision": "8f09f7d298fe6fb07c07",
+    "url": "/lbugasu.github.io/static/js/main.93c64cfd.chunk.js"
   },
   {
     "revision": "7e7bcc440757918b12a2",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lbugasu.github.io/static/media/Cardo-Regular.9818302b.ttf"
   },
   {
+    "revision": "161a343e5f69d817cb16581ee5dd8bfd",
+    "url": "/lbugasu.github.io/static/media/Culture.161a343e.otf"
+  },
+  {
     "revision": "f801e234d51049bd538d3d95f6f4e110",
     "url": "/lbugasu.github.io/static/media/GlacialIndifference-Bold.f801e234.otf"
   },
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1111c448d14dc96dfe4d8d88033e5875",
     "url": "/lbugasu.github.io/static/media/apple.1111c448.png"
+  },
+  {
+    "revision": "d19d5778e94b47d372b028843241c470",
+    "url": "/lbugasu.github.io/static/media/be.d19d5778.png"
   },
   {
     "revision": "29edd2e444a3fd3264341a4cd528cd29",

@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/lbugasu.github.io/static/css/main.76cfec81.chunk.css",
-    "main.js": "/lbugasu.github.io/static/js/main.02f88e69.chunk.js",
+    "main.css": "/lbugasu.github.io/static/css/main.dc966d3c.chunk.css",
+    "main.js": "/lbugasu.github.io/static/js/main.93c64cfd.chunk.js",
     "runtime-main.js": "/lbugasu.github.io/static/js/runtime-main.fcaae28e.js",
-    "static/js/2.3ae515da.chunk.js": "/lbugasu.github.io/static/js/2.3ae515da.chunk.js",
+    "static/js/2.0b4d90a0.chunk.js": "/lbugasu.github.io/static/js/2.0b4d90a0.chunk.js",
     "index.html": "/lbugasu.github.io/index.html",
-    "precache-manifest.8fa404d57c91132ec674d99426aaa46a.js": "/lbugasu.github.io/precache-manifest.8fa404d57c91132ec674d99426aaa46a.js",
+    "precache-manifest.37969720b08de4eaef899272321709dd.js": "/lbugasu.github.io/precache-manifest.37969720b08de4eaef899272321709dd.js",
     "service-worker.js": "/lbugasu.github.io/service-worker.js",
-    "static/js/2.3ae515da.chunk.js.LICENSE.txt": "/lbugasu.github.io/static/js/2.3ae515da.chunk.js.LICENSE.txt",
+    "static/js/2.0b4d90a0.chunk.js.LICENSE.txt": "/lbugasu.github.io/static/js/2.0b4d90a0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lbugasu.github.io/static/media/GlacialIndifference-Bold.f801e234.otf",
     "static/media/AfricanPassport.css": "/lbugasu.github.io/static/media/HighTide-Regular.3468484b.ttf",
     "static/media/Posts.less": "/lbugasu.github.io/static/media/Posts.a696beac.less",
     "static/media/SinglePost.less": "/lbugasu.github.io/static/media/SinglePost.aceae8da.less",
     "static/media/apple.png": "/lbugasu.github.io/static/media/apple.1111c448.png",
+    "static/media/be.png": "/lbugasu.github.io/static/media/be.d19d5778.png",
     "static/media/close.png": "/lbugasu.github.io/static/media/close.29edd2e4.png",
     "static/media/experiments.png": "/lbugasu.github.io/static/media/experiments.2d0c3cc0.png",
     "static/media/eyeem.png": "/lbugasu.github.io/static/media/eyeem.2b97990d.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fcaae28e.js",
-    "static/js/2.3ae515da.chunk.js",
-    "static/css/main.76cfec81.chunk.css",
-    "static/js/main.02f88e69.chunk.js"
+    "static/js/2.0b4d90a0.chunk.js",
+    "static/css/main.dc966d3c.chunk.css",
+    "static/js/main.93c64cfd.chunk.js"
   ]
 }

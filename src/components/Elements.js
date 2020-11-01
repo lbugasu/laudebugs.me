@@ -2,7 +2,7 @@ import React from "react";
 import github from "../css/images/github.png";
 import resume from "../css/images/resume.webp";
 import eyeem from "../css/images/eyeem.png";
-
+import be from "../css/images/be.png"
 const FrontImage = () => (
   <>
     <div className="elements">
@@ -32,6 +32,11 @@ const FrontImage = () => (
             height="50"
             width="50"
           ></img>
+        </a>
+      </div>
+      <div className="element">
+        <a href="https://www.behance.net/laurencebugasu" target="__blank">
+          <img src={be} alt="Behance site"></img>
         </a>
       </div>
     </div>
