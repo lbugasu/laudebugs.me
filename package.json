@@ -2,37 +2,36 @@
   "name": "laudebugs.me",
   "version": "0.1.0",
   "engines": {
-    "node": "12.x"
+    "node": "14.x"
   },
-  "homepage": "https://lbugasu.github.io/lbugasu.github.io",
+  "homepage": "https://lbugasu.github.io/lbugasu.github.io-v2",
   "private": true,
   "dependencies": {
-    "-": "0.0.1",
-    "@contentful/rich-text-html-renderer": "^14.1.1",
-    "@testing-library/jest-dom": "^5.11.0",
-    "@testing-library/react": "^10.4.3",
-    "@testing-library/user-event": "^12.0.11",
-    "concurrently": "^5.2.0",
-    "contentful": "^7.14.5",
+    "@contentful/rich-text-html-renderer": "^15.8.0",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "concurrently": "^6.3.0",
+    "contentful": "^9.1.4",
     "dev": "^0.1.3",
     "fs": "0.0.1-security",
-    "gh-pages": "^3.1.0",
-    "gsap": "^3.3.4",
-    "history": "^5.0.0",
+    "gh-pages": "^3.2.3",
+    "gsap": "^3.8.0",
+    "history": "^5.1.0",
     "markdown": "^0.5.0",
-    "mongodb": "^3.5.9",
-    "nodemon": "^2.0.4",
-    "npm-check-updates": "^7.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-markdown": "^4.3.1",
-    "react-router-dom": "^5.2.0",
-    "react-router-hash-link": "^2.2.2",
-    "react-scripts": "^3.4.3",
+    "mongodb": "^4.1.4",
+    "nodemon": "^2.0.15",
+    "npm-check-updates": "^12.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-markdown": "^7.1.0",
+    "react-router-dom": "^6.0.2",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^4.0.3",
     "saas": "^1.0.0",
-    "serve": "^11.3.2",
-    "sharp": "^0.25.4",
-    "three": "^0.118.3"
+    "serve": "^13.0.2",
+    "sharp": "^0.29.2",
+    "three": "^0.134.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -58,12 +57,12 @@
     ]
   },
   "devDependencies": {
-    "@contentful/rich-text-react-renderer": "^14.1.1",
+    "@contentful/rich-text-react-renderer": "^15.6.2",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
-    "less": "^3.11.3",
+    "less": "^4.1.2",
     "parcel-bundler": "^1.12.4",
     "path": "^0.12.7",
-    "prettier": "2.1.2"
+    "prettier": "2.4.1"
   }
 }
