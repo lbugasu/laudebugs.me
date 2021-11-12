@@ -1,4 +1,7 @@
 name: deploy
+env:
+  CI: false
+# Controls when the action will run.
 on:
   push:
     branches: [master]
@@ -8,10 +11,10 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
-      - name: Use Node v12
+      - name: Use Node v14
         uses: actions/setup-node@v2
         with:
-          node-version: "12"
+          node-version: "14"
       - name: Install packages
         run: npm install
       - name: Build 🔧
