@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/lbugasu.github.io-v2/static/css/main.a37ce30d.chunk.css",
+    "main.js": "/lbugasu.github.io-v2/static/js/main.33eb85cb.chunk.js",
+    "runtime-main.js": "/lbugasu.github.io-v2/static/js/runtime-main.005dfa5a.js",
+    "static/js/2.508d460e.chunk.js": "/lbugasu.github.io-v2/static/js/2.508d460e.chunk.js",
+    "index.html": "/lbugasu.github.io-v2/index.html",
+    "static/js/2.508d460e.chunk.js.LICENSE.txt": "/lbugasu.github.io-v2/static/js/2.508d460e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/lbugasu.github.io-v2/static/media/GlacialIndifference-Bold.c085c7b0.otf",
+    "static/media/AfricanPassport.css": "/lbugasu.github.io-v2/static/media/HighTide-Regular.1a354e7c.ttf",
+    "static/media/Posts.0a909c29.less": "/lbugasu.github.io-v2/static/media/Posts.0a909c29.less",
+    "static/media/SinglePost.39f13f12.less": "/lbugasu.github.io-v2/static/media/SinglePost.39f13f12.less",
+    "static/media/apple.c07b6f61.png": "/lbugasu.github.io-v2/static/media/apple.c07b6f61.png",
+    "static/media/be.8daa02a1.png": "/lbugasu.github.io-v2/static/media/be.8daa02a1.png",
+    "static/media/close.24a0c547.png": "/lbugasu.github.io-v2/static/media/close.24a0c547.png",
+    "static/media/experiments.862c8b7c.png": "/lbugasu.github.io-v2/static/media/experiments.862c8b7c.png",
+    "static/media/eyeem.6693a974.png": "/lbugasu.github.io-v2/static/media/eyeem.6693a974.png",
+    "static/media/github.30ebf61f.png": "/lbugasu.github.io-v2/static/media/github.30ebf61f.png",
+    "static/media/li.cdbcf049.png": "/lbugasu.github.io-v2/static/media/li.cdbcf049.png",
+    "static/media/profile.75af1d03.JPG": "/lbugasu.github.io-v2/static/media/profile.75af1d03.JPG",
+    "static/media/resume.ce92f6a6.webp": "/lbugasu.github.io-v2/static/media/resume.ce92f6a6.webp",
+    "static/media/show.c845b70d.png": "/lbugasu.github.io-v2/static/media/show.c845b70d.png",
+    "static/media/spotify.442aabb2.png": "/lbugasu.github.io-v2/static/media/spotify.442aabb2.png",
+    "static/media/youtube.b8859936.png": "/lbugasu.github.io-v2/static/media/youtube.b8859936.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.005dfa5a.js",
+    "static/js/2.508d460e.chunk.js",
+    "static/css/main.a37ce30d.chunk.css",
+    "static/js/main.33eb85cb.chunk.js"
+  ]
+}
